@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <title>Película</title>
+  </head>
+
+  <body class="bg-light">
+    <!-- Header -->
+    <header class="bg-white shadow-sm mb-4">
+      <div
+        class="container d-flex align-items-center justify-content-between py-3"
+      >
+        <div class="d-flex align-items-center gap-3">
+          <img
+            src="https://placehold.co/60x60"
+            alt="Logo"
+            width="60"
+            height="60"
+          />
+          <h1 class="h4 mb-0 text-primary">CineFan</h1>
+        </div>
+        <nav>
+          <a href="index.html" class="btn btn-outline-primary me-2">Inicio</a>
+          <a href="index.html#Grid-movies" class="btn btn-outline-secondary"
+            >Películas</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contenido -->
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="my-5">
+        <div
+          id="Hero-movie"
+          class="row align-items-center p-4 bg-white rounded shadow"
+        >
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <img
+              src="images/280x400.svg"
+              alt="P&oacute;ster"
+              class="img-fluid rounded shadow-sm border border-2"
+              loading="lazy"
+              id="Poster-movie"
+            />
+          </div>
+          <div class="col-md-8">
+            <h2 class="mb-2 fw-bold text-primary" id="Title-movie">
+              Título de la película
+            </h2>
+
+            <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+              <span class="text-secondary">
+                <i class="bi bi-calendar3"></i>
+                <span id="Date-movie">2000</span>
+              </span>
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <span id="Rating-movie">4.5</span>
+              </span>
+              <span>
+                <i class="bi bi-clock-history"></i>
+                <span id="Duration-movie">120 min</span>
+              </span>
+            </div>
+
+            <p class="mb-1">
+              <i class="bi bi-person-video2 text-dark"></i>
+              <strong>Direcci&oacute;n:</strong>
+              <span id="Director-movie">Nombre del director</span>
+            </p>
+
+            <div class="mb-3">
+              <i class="bi bi-tags text-dark"></i>
+              <strong>G&eacute;neros:</strong>
+              <span id="Genres-movie" class="ms-1">
+                <span class="badge bg-secondary me-1"
+                  >Ciencia ficci&oacute;n</span
+                >
+                <span class="badge bg-secondary me-1">Thriller</span>
+              </span>
+            </div>
+
+            <p class="lead" id="Details-movie">
+              Detalles importantes de la película.
+            </p>
+
+            <p class="fst-italic" id="Synopsis-movie">
+              Sinopsis de la película. Lorem ipsum dolor sit amet, consectetur.
+            </p>
+
+            <h5 class="mt-4 text-dark">Reparto</h5>
+            <p class="mb-0" id="Cast-movie">
+              Carlos, Pedro, Juan, María, Ana, Laura, Jos&eacute;, Luis, Marta
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tráiler -->
+      <section class="mb-5">
+        <h2 class="mb-3">🎬 Tráiler</h2>
+        <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden">
+          <iframe
+            id="Trailer-movie"
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="YouTube video player"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Fotos -->
+      <section class="mb-5">
+        <h2 class="mb-3">📷 Fotos</h2>
+        <div
+          id="Photographs-movie"
+          class="row row-cols-1 row-cols-md-3 g-4"
+        ></div>
+      </section>
+
+      <!-- Reseñas -->
+      <section>
+        <h2 class="mb-3">🗣️ Rese&ntilde;as de los usuarios</h2>
+        <div id="Reviews" class="mb-4"></div>
+
+        <hr />
+        <form id="ReviewForm">
+          <div class="mb-3">
+            <label for="review" class="form-label"
+              >Escribe tu rese&ntilde;a:</label
+            >
+            <textarea
+              class="form-control"
+              id="review"
+              rows="3"
+              placeholder="Escribe tu reseña aquí..."
+            ></textarea>
+          </div>
+          <div class="row align-items-end">
+            <div class="col-md-2">
+              <label for="rating" class="form-label">Calificaci&oacute;n</label>
+              <span class="col" id="stars">
+                <!-- Estrellas -->
+              </span>
+              <input
+                type="number"
+                id="rating"
+                class="form-control"
+                min="0.0"
+                max="5.0"
+                step="0.1"
+              />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+        </form>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script-movie.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,415 @@
+{
+  
+    "movies": [
+      {
+        "id": 1,
+        "title": "Los Cronocrímenes",
+        "release_date": "2007-11-16",
+        "synopsis": "Un hombre se ve atrapado en una serie de eventos que desafían la lógica temporal.",
+        "director": "Nacho Vigalondo",
+        "detail": "Dirigida por Nacho Vigalondo, esta película española de ciencia ficción explora las paradojas temporales con un enfoque minimalista y tenso.",
+        "review": "Una obra intrigante que combina suspense y ciencia ficción de manera efectiva, manteniendo al espectador en constante incertidumbre.",
+        "duration": "1h 46m",
+        "genres": ["Ciencia Ficción", "Thriller"],
+        "cast": [
+          "Karra Elejalde",
+          "Candela Fernández",
+          "Bárbara Goenaga",
+          "Nacho Vigalondo"
+        ],
+        "poster": "cronocrimenes.jpg",
+        "trailer": "https://www.youtube.com/embed/vmi3OY7cQfA?si=b_6Qpmtc23PbeRp4",
+        "photos": ["cronocrimenes1.jpg", "cronocrimenes2.webp", "cronocrimenes3.jpg"],
+        "reviews": [
+          {
+            "username": "carlos88",
+            "review": "Una película fascinante, me encantó la narrativa no lineal.",
+            "rating": 5,
+            "date": "2023-05-10"
+          },
+          {
+            "username": "laura_m",
+            "review": "Buena pero algo confusa en algunas partes.",
+            "rating": 2,
+            "date": "2023-06-15"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Inception",
+        "release_date": "2010-07-16",
+        "synopsis": "Un ladrón que roba secretos corporativos a través del uso de la tecnología de compartir sueños es dado la tarea inversa de plantar una idea en la mente de un CEO.",
+        "director": "Christopher Nolan",
+        "detail": "Una compleja exploración de los sueños y la realidad, con efectos visuales impresionantes y una narrativa envolvente.",
+        "review": "Una obra maestra moderna que desafía la percepción del tiempo y la conciencia.",
+        "duration": "2h 28m",
+        "genres": ["Acción", "Ciencia Ficción", "Aventura"],
+        "cast": [
+          "Leonardo DiCaprio",
+          "Joseph Gordon-Levitt",
+          "Elliot Page",
+          "Tom Hardy"
+        ],
+        "poster": "Inception.jpg",
+        "trailer": "https://www.youtube.com/embed/YoHD9XEInc0?si=lDziz-Qc63NkbcRl",
+        "photos": ["inception1_2010_a_l.webp","25scott-span-articleLarge.webp","inception960x0.webp"],
+        "reviews": [
+          {
+            "username": "dreamer01",
+            "review": "Increíble película, te mantiene pensando incluso después de que termina.",
+            "rating": 5,
+            "date": "2024-01-12"
+          },
+          {
+            "username": "cinephile99",
+            "review": "Visualmente impresionante y con una trama muy original.",
+            "rating": 4,
+            "date": "2024-02-08"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Interstellar",
+        "release_date": "2014-11-07",
+        "synopsis": "Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia de la humanidad.",
+        "director": "Christopher Nolan",
+        "detail": "Una épica odisea espacial que combina ciencia, emoción y espectaculares efectos visuales.",
+        "review": "Una experiencia cinematográfica que explora los límites del amor y la relatividad.",
+        "duration": "2h 49m",
+        "genres": ["Aventura", "Drama", "Ciencia Ficción"],
+        "cast": [
+          "Matthew McConaughey",
+          "Anne Hathaway",
+          "Jessica Chastain",
+          "Michael Caine"
+        ],
+        "poster": "Interstellar.jpg",
+        "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E?si=ldA93s12-0gLzOIO",
+        "photos": ["interstellar1.jpg"],
+        "reviews": [
+          {
+            "username": "spacefan",
+            "review": "Una película que te hace reflexionar sobre nuestro lugar en el universo.",
+            "rating": 5,
+            "date": "2024-03-22"
+          },
+          {
+            "username": "astrolover",
+            "review": "Emocionante y científicamente fascinante.",
+            "rating": 4,
+            "date": "2024-04-10"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Minority Report",
+        "release_date": "2002-06-21",
+        "synopsis": "En un futuro donde una unidad especial puede arrestar a asesinos antes de que cometan sus crímenes, un oficial es acusado de un asesinato que aún no ha cometido.",
+        "director": "Steven Spielberg",
+        "detail": "Una intensa mezcla de acción y ciencia ficción que plantea preguntas sobre el libre albedrío y la predestinación.",
+        "review": "Una visión futurista intrigante con una narrativa llena de giros.",
+        "duration": "2h 25m",
+        "genres": ["Acción", "Crimen", "Ciencia Ficción"],
+        "cast": [
+          "Tom Cruise",
+          "Colin Farrell",
+          "Samantha Morton",
+          "Max von Sydow"
+        ],
+        "poster": "MinorityReport.jpg",
+        "trailer": "https://www.youtube.com/embed/aGWQYgZZEEQ?si=Yv3EwOmxxMhMlTBN",
+        "photos": ["image-w856.jpg","InterfaceGestuelleMinorityReport.jpg"],
+        "reviews": [
+          {
+            "username": "futuregazer",
+            "review": "Una película que te mantiene al borde del asiento.",
+            "rating": 4,
+            "date": "2024-05-05"
+          },
+          {
+            "username": "techenthusiast",
+            "review": "Fascinante concepto y excelente ejecución.",
+            "rating": 5,
+            "date": "2024-06-01"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Memento",
+        "release_date": "2000-10-11",
+        "synopsis": "La memoria de Leonard, un investigador de una agencia de seguros, está irreversiblemente dañada debido a un golpe sufrido en la cabeza cuando intentaba evitar el asesinato de su mujer.",
+        "director": "Christopher Nolan",
+        "detail": "Dirigida por Christopher Nolan, esta película de suspense psicológico presenta una narrativa no lineal que refleja la confusión mental del protagonista.",
+        "review": "Una obra maestra que desafía la percepción del tiempo y la memoria.",
+        "duration": "1h 53m",
+        "genres": ["Suspense Psicológico", "Misterio"],
+        "cast": [
+          "Guy Pearce",
+          "Carrie-Anne Moss",
+          "Joe Pantoliano",
+          "Mark Boone Junior"
+        ],
+        "poster": "memento.jpg",
+        "trailer": "https://www.youtube.com/embed/4CV41hoyS8A?si=LJquuGj0hFPxNUf4",
+        "photos": ["memento1.jpg","Memento 4.jpg","memento3.0.0.jpg","3-who-is-leonard-talking-to-on-the-phone-1676555878.jpg"],
+        "reviews": [
+          {
+            "username": "memoriafragil",
+            "review": "Una narrativa única que te mantiene enganchado hasta el final.",
+            "rating": 5,
+            "date": "2024-07-21"
+          },
+          {
+            "username": "cinelover",
+            "review": "Confusa al principio, pero increíblemente satisfactoria.",
+            "rating": 4,
+            "date": "2024-08-15"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Número 9",
+        "release_date": "2009-09-09",
+        "synopsis": "En un mundo post-apocalíptico, nueve muñecos de trapo luchan por sobrevivir y preservar el futuro de la civilización enfrentándose a máquinas gigantes.",
+        "director": "Shane Acker",
+        "detail": "Una película animada que combina acción y fantasía, basada en el cortometraje homónimo nominado al Óscar.",
+        "review": "Visualmente impactante y emocionalmente resonante.",
+        "duration": "1h 19m",
+        "genres": ["Animación", "Fantasía", "Ciencia Ficción"],
+        "cast": [
+          "Elijah Wood",
+          "John C. Reilly",
+          "Jennifer Connelly",
+          "Christopher Plummer"
+        ],
+        "poster": "mu1zDw4qxlUzrBizasO24unC766.jpg",
+        "trailer": "https://www.youtube.com/embed/BtDqggbHzs8?si=W4HXJSWa79XiY98V",
+        "photos": ["numero9.webp","9-foto-destacada.webp","278ab3d2-b04c-4d08-8b53-8cd193353896-snapshot-1590663321-width936-quality15.jpeg"],
+        "reviews": [
+          {
+            "username": "animacionfan",
+            "review": "Una historia profunda con una animación impresionante.",
+            "rating": 4,
+            "date": "2024-09-10"
+          },
+          {
+            "username": "postapocaliptico",
+            "review": "Una visión única del futuro con personajes entrañables.",
+            "rating": 5,
+            "date": "2024-10-05"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Déjà Vu",
+        "release_date": "2006-11-22",
+        "synopsis": "El agente Doug Carlin investiga una explosión en un ferry en Nueva Orleans y descubre una tecnología que le permite ver el pasado para prevenir futuros crímenes.",
+        "director": "Tony Scott",
+        "detail": "Un thriller de ciencia ficción que explora la posibilidad de cambiar el pasado para alterar el futuro.",
+        "review": "Una mezcla emocionante de acción y ciencia ficción con giros inesperados.",
+        "duration": "2h 6m",
+        "genres": ["Thriller", "Ciencia Ficción", "Acción"],
+        "cast": [
+          "Denzel Washington",
+          "Paula Patton",
+          "Val Kilmer",
+          "Jim Caviezel"
+        ],
+        "poster": "583434.webp",
+        "trailer": "https://www.youtube.com/embed/uxdS8TP37I4?si=KjX99eIRMev_UP0h",
+        "photos": ["1H6SvEtfx1oT68Oz7rSZgzVzKUT.jpg","dejavu007.webp", "ns7mng8pi3771.webp"],
+        "reviews": [
+          {
+            "username": "viajeroeneltiempo",
+            "review": "Intrigante y llena de acción, te mantiene al borde del asiento.",
+            "rating": 4,
+            "date": "2024-11-12"
+          },
+          {
+            "username": "scififan",
+            "review": "Una premisa fascinante ejecutada brillantemente.",
+            "rating": 5,
+            "date": "2024-12-01"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Source Code",
+        "release_date": "2011-03-30",
+        "synopsis": "El capitán Colter Stevens se despierta en el cuerpo de otra persona y descubre que forma parte de un experimento para encontrar al responsable de un atentado en un tren.",
+        "director": "Duncan Jones",
+        "detail": "Una película de ciencia ficción que combina acción y misterio, explorando conceptos de identidad y realidad.",
+        "review": "Una historia envolvente que te hace cuestionar la realidad.",
+        "duration": "1h 33m",
+        "genres": ["Ciencia Ficción", "Thriller", "Misterio"],
+        "cast": [
+          "Jake Gyllenhaal",
+          "Michelle Monaghan",
+          "Vera Farmiga",
+          "Jeffrey Wright"
+        ],
+        "poster": "61kv2iHPugL._AC_UF1000,1000_QL80_.jpg",
+        "trailer": "https://www.youtube.com/embed/i71eXpmkZBY?si=T9fqA-S6C3lR3gzH",
+        "photos": ["image-w1280.webp","source1.jpg","video-source-code-articleLarge.jpg"],
+        "reviews": [
+          {
+            "username": "realidadalternativa",
+            "review": "Una trama inteligente con actuaciones destacadas.",
+            "rating": 5,
+            "date": "2025-01-15"
+          },
+          {
+            "username": "misteriofan",
+            "review": "Te atrapa desde el inicio y no te suelta.",
+            "rating": 4,
+            "date": "2025-02-10"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Al borde del abismo",
+        "release_date": "2012-01-13",
+        "synopsis": "Un ex policía amenaza con saltar desde la cornisa de un hotel en Manhattan, mientras que un equipo de negociadores intenta salvarlo, sin saber que detrás hay un elaborado plan.",
+        "director": "Asger Leth",
+        "detail": "Un thriller de acción que combina suspense y giros inesperados, explorando los límites de la desesperación y la justicia.",
+        "review": "Una película intensa que mantiene al espectador en vilo hasta el final.",
+        "duration": "1h 42m",
+        "genres": ["Suspense", "Acción", "Crimen"],
+        "cast": [
+          "Sam Worthington",
+          "Elizabeth Banks",
+          "Jamie Bell",
+          "Anthony Mackie"
+        ],
+        "poster": "49527-0.jpg",
+        "trailer": "https://www.youtube.com/embed/IXiK3QhXwDY?si=E8f9TcYP0TFU8kWS",
+        "photos": ["20210927212205_al-borde-del-abismo_amp_w1200.jpg","MV5BNTI2NDk4MTU0NV5BMl5BanBnXkFtZTcwOTQwMzQyNw@@._V1_.jpg","al-borde-del-abismo-2013-sam-worthington.jpg"],
+        "reviews": [
+          {
+            "username": "thrillerfan",
+            "review": "Una trama emocionante con actuaciones sólidas.",
+            "rating": 4,
+            "date": "2024-03-15"
+          },
+          {
+            "username": "edgewatcher",
+            "review": "Me mantuvo al borde del asiento todo el tiempo.",
+            "rating": 5,
+            "date": "2024-04-10"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Paycheck",
+        "release_date": "2003-12-25",
+        "synopsis": "Un ingeniero especializado en proyectos secretos acepta que le borren la memoria tras cada trabajo, pero tras su último encargo, descubre que ha sido traicionado y debe reconstruir su pasado.",
+        "director": "John Woo",
+        "detail": "Basada en un relato de Philip K. Dick, esta película mezcla acción y ciencia ficción en una carrera contrarreloj para descubrir la verdad.",
+        "review": "Un thriller tecnológico con giros intrigantes y acción intensa.",
+        "duration": "1h 59m",
+        "genres": ["Acción", "Ciencia Ficción", "Suspense"],
+        "cast": [
+          "Ben Affleck",
+          "Uma Thurman",
+          "Aaron Eckhart",
+          "Paul Giamatti"
+        ],
+        "poster": "paycheck.jpg",
+        "trailer": "https://www.youtube.com/embed/rkE5I9nFqrI?si=BsQDtJb4bgbaeYhd",
+        "photos": ["MV5BMjE1OTQ1MDIwNV5BMl5BanBnXkFtZTYwNzExNzc3._V1_.jpg","paycheck_2003_photo_hero-1024x576.jpg","paycheck2.jpg"],
+        "reviews": [
+          {
+            "username": "techlover",
+            "review": "Una mezcla perfecta de acción y ciencia ficción.",
+            "rating": 4,
+            "date": "2024-05-20"
+          },
+          {
+            "username": "memoryseeker",
+            "review": "Interesante concepto y ejecución sólida.",
+            "rating": 4,
+            "date": "2024-06-18"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Frequency",
+        "release_date": "2000-04-28",
+        "synopsis": "Un fenómeno meteorológico permite a un hijo comunicarse con su padre fallecido 30 años antes, lo que desencadena una serie de eventos que alteran el pasado y el presente.",
+        "director": "Gregory Hoblit",
+        "detail": "Una emotiva historia que combina ciencia ficción y drama familiar, explorando las consecuencias de cambiar el pasado.",
+        "review": "Una narrativa conmovedora que entrelaza el tiempo y las relaciones familiares.",
+        "duration": "1h 58m",
+        "genres": ["Ciencia Ficción", "Drama", "Suspense"],
+        "cast": [
+          "Dennis Quaid",
+          "Jim Caviezel",
+          "Elizabeth Mitchell",
+          "Andre Braugher"
+        ],
+        "poster": "Frequency-2000-poster.jpg",
+        "trailer": "https://www.youtube.com/embed/jdACpDDpIUs?si=luzF_GXo_Ymw-Ijj",
+        "photos": ["image-w1280f.webp","bRGtZsVj2Qq8r5CCsNYmQUPF4z4.jpg","frequency-2000-movie-image.webp"],
+        "reviews": [
+          {
+            "username": "timebond",
+            "review": "Una historia que toca el corazón y la mente.",
+            "rating": 5,
+            "date": "2024-07-12"
+          },
+          {
+            "username": "radiowaves",
+            "review": "Original y emocionalmente poderosa.",
+            "rating": 4,
+            "date": "2024-08-05"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Cypher",
+        "release_date": "2002-10-01",
+        "synopsis": "Un contable aburrido se convierte en espía corporativo, pero pronto se ve atrapado en una red de engaños y manipulación que lo hace cuestionar su identidad.",
+        "director": "Vincenzo Natali",
+        "detail": "Un thriller de ciencia ficción que explora la paranoia y la pérdida de identidad en un mundo de espionaje corporativo.",
+        "review": "Una película intrigante que mantiene al espectador cuestionando la realidad.",
+        "duration": "1h 35m",
+        "genres": ["Ciencia Ficción", "Suspense", "Misterio"],
+        "cast": [
+          "Jeremy Northam",
+          "Lucy Liu",
+          "Nigel Bennett",
+          "Timothy Webber"
+        ],
+        "poster": "MV5BMTcyMDIwOTczMV5BMl5BanBnXkFtZTcwMDk5MTAzMQ@@._V1_.jpg",
+        "trailer": "https://www.youtube.com/embed/fmkk9icfkIA?si=vQg1nn7YDOsH8a1A",
+        "photos": ["Cypher-2002-Movie-Ending-Explained.webp","MV5BYWEzZWQyMjEtNjQ2MS00Y2Q4LWFmZmItYmQ0YTk0YjIzYjNmXkEyXkFqcGc@._V1_.jpg","cypher-vincenzo-natali-recensione-cyberpunk-film-2-1.webp"],
+        "reviews": [
+          {
+            "username": "spyhunter",
+            "review": "Una trama compleja y fascinante.",
+            "rating": 4,
+            "date": "2024-09-10"
+          },
+          {
+            "username": "identitycrisis",
+            "review": "Te mantiene adivinando hasta el final.",
+            "rating": 5,
+            "date": "2024-10-03"
+          }
+        ]
+      }
+    ]
+  }  
+
+  

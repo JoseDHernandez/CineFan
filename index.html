@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <title>CineFan</title>
+  </head>
+
+  <body class="bg-light">
+    <!-- Header -->
+    <header class="bg-white shadow-sm mb-4">
+      <div
+        class="container d-flex align-items-center justify-content-between py-3"
+      >
+        <div class="d-flex align-items-center gap-3">
+          <img src="images/280x400.svg" alt="Logo" width="60" height="60" />
+          <h1 class="h4 mb-0 text-primary">CineFan</h1>
+        </div>
+        <nav>
+          <a href="index.html" class="btn btn-outline-primary me-2">Inicio</a>
+          <a href="index.html#Grid-movies" class="btn btn-outline-secondary"
+            >Películas</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container">
+      <!-- Hero destacado -->
+      <section
+        id="Hero-movie"
+        class="row align-items-center mb-5 p-4 bg-white shadow rounded"
+      >
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <img
+            src="https://placehold.co/280x400"
+            alt="Póster"
+            class="img-fluid rounded shadow-sm border border-2"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-md-8">
+          <h2 class="mb-2 fw-bold text-primary">Título de la película</h2>
+          <p class="text-warning mb-1">
+            <i class="bi bi-star-fill"></i> Calificación: 4.5
+          </p>
+          <p class="mb-3">
+            <i class="bi bi-align-start"></i> Una breve sinopsis o descripción
+            destacada.
+          </p>
+          <blockquote class="blockquote fst-italic">
+            <q>Una película que te deja sin aliento.</q>
+          </blockquote>
+          <a href="#" class="btn btn-primary btn-lg mt-3">
+            <i class="bi bi-info-circle-fill me-1"></i> Ver más detalles
+          </a>
+        </div>
+      </section>
+
+      <!-- Sección de más películas -->
+      <section>
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="mb-0">🎞️ Más películas</h2>
+        </div>
+        <div class="row">
+          <!-- Grid de películas -->
+          <div id="Grid-movies" class="col-lg-9 d-flex flex-wrap gap-3 mb-4">
+            <div
+              class="card text-decoration-none shadow border-0 bg-white rounded-4 overflow-hidden"
+              style="width: 200px"
+            >
+              <div
+                class="card-img-top rounded-top bg-secondary-subtle"
+                style="height: 300px; width: 100%"
+              >
+                &nbsp;
+              </div>
+              <div class="card-body p-3">
+                <h6
+                  class="card-title text-primary text-center mb-1 bg-secondary-subtle"
+                >
+                  &nbsp;
+                </h6>
+                <p
+                  class="card-text text-center text-warning mb-0"
+                  style="font-size: 1.2rem"
+                >
+                  <span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="card text-decoration-none shadow border-0 bg-white rounded-4 overflow-hidden"
+              style="width: 200px"
+            >
+              <div
+                class="card-img-top rounded-top bg-secondary-subtle"
+                style="height: 300px; width: 100%"
+              >
+                &nbsp;
+              </div>
+              <div class="card-body p-3">
+                <h6
+                  class="card-title text-primary text-center mb-1 bg-secondary-subtle"
+                >
+                  &nbsp;
+                </h6>
+                <p
+                  class="card-text text-center text-warning mb-0"
+                  style="font-size: 1.2rem"
+                >
+                  <span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="card text-decoration-none shadow border-0 bg-white rounded-4 overflow-hidden"
+              style="width: 200px"
+            >
+              <div
+                class="card-img-top rounded-top bg-secondary-subtle"
+                style="height: 300px; width: 100%"
+              >
+                &nbsp;
+              </div>
+              <div class="card-body p-3">
+                <h6
+                  class="card-title text-primary text-center mb-1 bg-secondary-subtle"
+                >
+                  &nbsp;
+                </h6>
+                <p
+                  class="card-text text-center text-warning mb-0"
+                  style="font-size: 1.2rem"
+                >
+                  <span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="card text-decoration-none shadow border-0 bg-white rounded-4 overflow-hidden"
+              style="width: 200px"
+            >
+              <div
+                class="card-img-top rounded-top bg-secondary-subtle"
+                style="height: 300px; width: 100%"
+              >
+                &nbsp;
+              </div>
+              <div class="card-body p-3">
+                <h6
+                  class="card-title text-primary text-center mb-1 bg-secondary-subtle"
+                >
+                  &nbsp;
+                </h6>
+                <p
+                  class="card-text text-center text-warning mb-0"
+                  style="font-size: 1.2rem"
+                >
+                  <span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span
+                  ><span class="text-secondary">☆</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Menú de búsqueda -->
+          <aside class="col-lg-3">
+            <div
+              class="border p-4 rounded shadow-sm bg-secondary bg-opacity-10"
+            >
+              <h5 class="mb-3"><i class="bi bi-search"></i> Buscar</h5>
+              <label for="title" class="form-label"
+                >Título de la película</label
+              >
+              <input
+                type="text"
+                id="title"
+                class="form-control mb-3"
+                placeholder="Matrix"
+              />
+              <button class="btn btn-primary w-100" id="btnSearch">
+                <i class="bi bi-search"></i> Buscar
+              </button>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script-index.js" type="module"></script>
+  </body>
+</html>
