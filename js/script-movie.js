@@ -35,11 +35,19 @@ const ViewData = async () => {
     Poster.src = "images/" + movie.poster; //Image path
     Poster.alt = movie.title; //Image alt
     TitleMovie.innerText = movie.title; //Movie title
+    document.getElementById("breadcrumb-page").innerText = movie.title; //Breadcrumb page title
+    DateMovie.innerHTML = "";
     DateMovie.innerHTML = new Date(movie.release_date).toLocaleDateString(); //Movie release date
-    GenresMovie.innerHTML = movie.genres.join(", "); //Movie genres
+    GenresMovie.innerHTML = "";
+    movie.genres.map((genre) => {
+      const genreElement = document.createElement("span");
+      genreElement.className = "badge bg-secondary me-1 ";
+      genreElement.innerText = genre;
+      GenresMovie.appendChild(genreElement);
+    }); //Movie genres
     DirectorMovie.innerHTML = movie.director; //Movie director
     DurationMovie.innerHTML = movie.duration; //Movie duration
-    CastMovie.innerHTML = movie.cast.join(", "); //Movie cast
+    CastMovie.innerHTML = `<p>${movie.cast.join(", ")}</p>`; //Movie cast
     TrailerMovie.src = movie.trailer; //Movie trailer
     RatingMovie.innerHTML =
       "<b>Calificaci&oacute;n: </b> " +
@@ -52,7 +60,7 @@ const ViewData = async () => {
     const filteredReviews = reviewsSessionS.filter(
       (review) => review.movieId === IdMovie
     );
-
+    ReviewsSection.innerHTML = "";
     if ("reviews" in movie && movie.reviews.length > 0) {
       movie.reviews.forEach((review) => {
         ReviewsSection.appendChild(reviewHTML(review));
@@ -72,6 +80,7 @@ const ViewData = async () => {
       });
     }
     //Print all photographs
+    Photographs.innerHTML = "";
     if ("photos" in movie && movie.photos.length > 0) {
       movie.photos.forEach((photograph) => {
         const photographElement = document.createElement("img");

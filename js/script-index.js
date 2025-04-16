@@ -32,11 +32,12 @@ const HeroMovie = async () => {
       movie.score != null
         ? "<b>Calificaci&oacute;n: </b> " +
           score(movie.score) +
-          `(${movie.score})`
+          ` (${movie.score})`
         : "&nbsp;"; //Movie score
-    HeroDataSection[5].innerText = movie.synopsis; //Movie synopsis
-    HeroDataSection[7].children[0].innerText = movie.review; //Movie review
-    HeroDataSection[9].href = `./movie.html?id=${movie.id}`; //Movie link
+
+    document.getElementById("Synopsis").innerHTML = `<p>${movie.synopsis}</p>`; //Movie synopsis
+    document.getElementById("Quote").innerHTML = `<q>${movie.review}</q>`; //Movie review
+    document.getElementById("btnDetails").href = `./movie.html?id=${movie.id}`; //Movie link
   } catch (error) {
     console.error("Error fetching movie:", error);
   }

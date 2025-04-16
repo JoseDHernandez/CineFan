@@ -7,17 +7,17 @@ export function score(rating) {
   let html = "";
   // Estrellas llenas
   for (let i = 0; i < estrellasLlenas; i++) {
-    html += '<span class="text-warning">★</span>';
+    html += '<span class="text-warning"><i class="bi bi-star-fill"></i></span>';
   }
   // Media estrella
   if (tieneMedia) {
-    html += '<span class="text-warning">⯨</span>';
+    html += '<span class="text-warning"><i class="bi bi-star-half"></i></span>';
   } else if (rating % 1 >= 0.75) {
-    html += '<span class="text-warning">★</span>';
+    html += '<span class="text-warning"><i class="bi bi-star-fill"></i></span>';
   }
   // Estrellas vacías
   for (let i = 0; i < estrellasVacías; i++) {
-    html += '<span class="text-secondary">☆</span>';
+    html += '<span class="text-secondary"><i class="bi bi-star"></i></span>';
   }
   return html;
 }
