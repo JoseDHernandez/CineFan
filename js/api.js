@@ -14,8 +14,12 @@ export const getMovies = async () => {
     movies.map((movie) => {
       movie.score =
         "reviews" in movie
-          ? movie.reviews.reduce((acc, review) => acc + review.rating, 0) /
-            movie.reviews.length
+          ? parseFloat(
+              (
+                movie.reviews.reduce((acc, review) => acc + review.rating, 0) /
+                movie.reviews.length
+              ).toFixed(1)
+            )
           : null;
     });
     return data.movies;
