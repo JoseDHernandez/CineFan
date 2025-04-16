@@ -1,4 +1,4 @@
-const API_URL = "../db.json";
+const API_URL = "./db.json";
 const normalize = (str) =>
   str
     .normalize("NFD")
