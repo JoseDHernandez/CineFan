@@ -1,14 +1,21 @@
 import {
-  getMovieById,
+  getMoviesByCategory,
   getMovieByIndex,
   getMovies,
   getMoviesByName,
+  allCategories,
 } from "./api.js";
 import { score } from "./score.js";
-//Hero
-const HeroSection = document.getElementById("Hero-movie");
-const HeroMovieSection = HeroSection.childNodes[1].childNodes[1];
-const HeroDataSection = HeroSection.childNodes[3].childNodes;
+/* All  constants of Dom elements*/
+const HeroSection = document.getElementById("Hero-movie"); // Get the Hero section
+const HeroMovieSection = HeroSection.childNodes[1].childNodes[1]; // Get the movie image
+const HeroDataSection = HeroSection.childNodes[3].childNodes; // Get the data section of the movie
+const categorySelect = document.getElementById("categories"); // Get the category select element
+const gridMovies = document.getElementById("Grid-movies"); // Get the grid section for movies
+const searchInput = document.getElementById("title"); // Get the search input field
+const searchButton = document.getElementById("btnSearch"); // Get the search button
+/*All arrow functions*/
+//Hero movie: show a random movie in the hero section
 const HeroMovie = async () => {
   try {
     //Get Movie
@@ -34,8 +41,7 @@ const HeroMovie = async () => {
     console.error("Error fetching movie:", error);
   }
 };
-//Grid
-const gridMovies = document.getElementById("Grid-movies");
+// Print all movies in the grid
 const ViewAllMovies = async () => {
   try {
     const movies = await getMovies();
@@ -74,27 +80,24 @@ const renderMovies = (movies) => {
     </p>
   </div>
 `;
-
     movieElement.href = `./movie.html?id=${movie.id}`;
-
-    gridMovies.appendChild(movieElement); // Append the movie element to the grid
+    //Add movie to the grid
+    gridMovies.appendChild(movieElement);
   });
 };
-//Search
-let delayTimer;
-const searchInput = document.getElementById("title");
-const searchButton = document.getElementById("btnSearch");
-// Add event listener to the search button
+/*Search and filter functions*/
+let delayTimer; // Timer for debounce
+//Events listener for the search button and the search input field
 searchButton.addEventListener("click", async () => {
   findMovieByName(event.target.value.trim());
 });
-// Add event listener to the search input field
 searchInput.addEventListener("keyup", async (event) => {
   clearTimeout(delayTimer); // Clear the previous timer
   delayTimer = setTimeout(async () => {
     findMovieByName(event.target.value.trim());
   }, 300);
 });
+// Function to find movies by name
 const findMovieByName = async (searchValue) => {
   if (searchValue.length > 0) {
     try {
@@ -117,6 +120,37 @@ const findMovieByName = async (searchValue) => {
     ViewAllMovies(); // Show all movies if the input is empty
   }
 };
+// Get and set categories
+const setCategories = async () => {
+  try {
+    const categories = await allCategories();
+    //console.log(categories)
+    categories.forEach((category) => {
+      const option = document.createElement("option");
+      option.value = category;
+      option.textContent = category;
+      categorySelect.appendChild(option);
+    });
+  } catch (error) {
+    console.error("Error fetching categories:", error);
+  }
+};
+// Event listener for category selection
+categorySelect.addEventListener("change", async (event) => {
+  const selectedCategory = event.target.value;
+  if (selectedCategory != 0) {
+    try {
+      const movies = await getMoviesByCategory(selectedCategory);
+      renderMovies(movies); // Render the filtered movies in the grid
+    } catch (error) {
+      console.error("Error fetching movies:", error);
+    }
+  } else {
+    ViewAllMovies(); // Show all movies if no category is selected
+  }
+});
 
+/*Call all arrow functions*/
 HeroMovie();
 ViewAllMovies();
+setCategories();

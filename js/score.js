@@ -1,3 +1,4 @@
+//This function was created by chatgpt
 export function score(rating) {
   const estrellasLlenas = Math.floor(rating);
   const tieneMedia = rating % 1 >= 0.25 && rating % 1 < 0.75;
@@ -8,11 +9,11 @@ export function score(rating) {
   for (let i = 0; i < estrellasLlenas; i++) {
     html += '<span class="text-warning">★</span>';
   }
-  // Media estrella (opcional: puedes cambiar por un ícono SVG si quieres más detalle)
+  // Media estrella
   if (tieneMedia) {
-    html += '<span class="text-warning">⯨</span>'; // Alternativa: medio símbolo
+    html += '<span class="text-warning">⯨</span>';
   } else if (rating % 1 >= 0.75) {
-    html += '<span class="text-warning">★</span>'; // casi llena = llena
+    html += '<span class="text-warning">★</span>';
   }
   // Estrellas vacías
   for (let i = 0; i < estrellasVacías; i++) {

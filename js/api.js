@@ -4,6 +4,7 @@ const normalize = (str) =>
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
+// Function to fetch movies from the API and calculate average score
 export const getMovies = async () => {
   try {
     const response = await fetch(API_URL);
@@ -23,7 +24,7 @@ export const getMovies = async () => {
     return null;
   }
 };
-
+// Function to fetch a movie by its index
 export const getMovieByIndex = async (index) => {
   try {
     const data = await getMovies();
@@ -33,7 +34,7 @@ export const getMovieByIndex = async (index) => {
     console.error("Error fetching movie by Index:", error);
   }
 };
-
+// Function to fetch a movie by its ID
 export const getMovieById = async (id) => {
   try {
     const data = await getMovies();
@@ -43,7 +44,7 @@ export const getMovieById = async (id) => {
     console.error("Error fetching movie by Index:", error);
   }
 };
-
+// Function to fetch movies by name
 export const getMoviesByName = async (name) => {
   try {
     const data = await getMovies();
@@ -57,5 +58,26 @@ export const getMoviesByName = async (name) => {
     return movies || null;
   } catch (error) {
     console.error("Error fetching movie by name:", error);
+  }
+};
+
+export const allCategories = async () => {
+  try {
+    const data = await getMovies();
+    let genres = [];
+    data.map((movie) => movie.genres.map((genre) => genres.push(genre))); // Get all categories/genres from the movies
+    return [...new Set(genres)]; // Return unique categories
+  } catch (error) {
+    console.error("Error fetching categories:", error);
+  }
+};
+
+export const getMoviesByCategory = async (category) => {
+  try {
+    const data = await getMovies();
+    const movies = data.filter((movie) => movie.genres.includes(category)); // Filter movies by category
+    return movies || null;
+  } catch (error) {
+    console.error("Error fetching movies by category:", error);
   }
 };

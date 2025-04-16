@@ -37,10 +37,7 @@
     <div class="container">
       <!-- Hero Section -->
       <section class="my-5">
-        <div
-          id="Hero-movie"
-          class="row align-items-center p-4 bg-white rounded shadow"
-        >
+        <div class="row align-items-center p-4 bg-white rounded shadow">
           <div class="col-md-4 text-center mb-3 mb-md-0">
             <img
               src="images/280x400.svg"
@@ -99,10 +96,21 @@
             <p class="mb-0" id="Cast-movie">
               Carlos, Pedro, Juan, María, Ana, Laura, Jos&eacute;, Luis, Marta
             </p>
+            <br />
+            <a class="btn btn-primary" href="#Trailer-movie"
+              ><i class="bi bi-fast-forward"></i> Ver trailer</a
+            >
           </div>
         </div>
       </section>
-
+      <!-- Fotos -->
+      <section class="mb-5">
+        <h2 class="mb-3">📷 Fotos</h2>
+        <div
+          id="Photographs-movie"
+          class="row row-cols-1 row-cols-md-3 g-4"
+        ></div>
+      </section>
       <!-- Tráiler -->
       <section class="mb-5">
         <h2 class="mb-3">🎬 Tráiler</h2>
@@ -116,15 +124,6 @@
         </div>
       </section>
 
-      <!-- Fotos -->
-      <section class="mb-5">
-        <h2 class="mb-3">📷 Fotos</h2>
-        <div
-          id="Photographs-movie"
-          class="row row-cols-1 row-cols-md-3 g-4"
-        ></div>
-      </section>
-
       <!-- Reseñas -->
       <section>
         <h2 class="mb-3">🗣️ Rese&ntilde;as de los usuarios</h2>
@@ -132,34 +131,54 @@
 
         <hr />
         <form id="ReviewForm">
+          <!-- Mensajes de error -->
+          <p id="errors" class="text-danger"></p>
+
           <div class="mb-3">
-            <label for="review" class="form-label"
-              >Escribe tu rese&ntilde;a:</label
-            >
+            <label for="review" class="form-label">Escribe tu reseña:</label>
             <textarea
-              class="form-control"
+              class="form-control bg-light border-secondary-subtle shadow-sm"
               id="review"
+              name="review"
               rows="3"
               placeholder="Escribe tu reseña aquí..."
             ></textarea>
           </div>
+
           <div class="row align-items-end">
-            <div class="col-md-2">
-              <label for="rating" class="form-label">Calificaci&oacute;n</label>
-              <span class="col" id="stars">
-                <!-- Estrellas -->
-              </span>
+            <div class="col-md-6 mb-3">
+              <label for="rating" class="form-label">Calificación</label>
+              <span class="col" id="stars"> </span>
               <input
                 type="number"
                 id="rating"
-                class="form-control"
+                name="rating"
+                class="form-control bg-light border-secondary-subtle shadow-sm"
                 min="0.0"
                 max="5.0"
                 step="0.1"
+                placeholder="0.0"
+              />
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label for="username" class="form-label">Nombre de usuario</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                class="form-control bg-light border-secondary-subtle shadow-sm"
+                required
+                maxlength="10"
+                size="10"
+                placeholder="Tu nombre"
               />
             </div>
           </div>
-          <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+
+          <button type="submit" class="btn btn-primary mt-3" id="formBtn">
+            Enviar
+          </button>
         </form>
       </section>
     </div>

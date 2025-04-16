@@ -8,7 +8,7 @@
         "synopsis": "Un hombre se ve atrapado en una serie de eventos que desafían la lógica temporal.",
         "director": "Nacho Vigalondo",
         "detail": "Dirigida por Nacho Vigalondo, esta película española de ciencia ficción explora las paradojas temporales con un enfoque minimalista y tenso.",
-        "review": "Una obra intrigante que combina suspense y ciencia ficción de manera efectiva, manteniendo al espectador en constante incertidumbre.",
+        "review": "Una obra intrigante que combina suspenso y ciencia ficción de manera efectiva, manteniendo al espectador en constante incertidumbre.",
         "duration": "1h 46m",
         "genres": ["Ciencia Ficción", "Thriller"],
         "cast": [
@@ -17,9 +17,9 @@
           "Bárbara Goenaga",
           "Nacho Vigalondo"
         ],
-        "poster": "cronocrimenes.jpg",
+        "poster": "cronocrimenes.webp",
         "trailer": "https://www.youtube.com/embed/vmi3OY7cQfA?si=b_6Qpmtc23PbeRp4",
-        "photos": ["cronocrimenes1.jpg", "cronocrimenes2.webp", "cronocrimenes3.jpg"],
+        "photos": ["cronocrimenes1.webp", "cronocrimenes2.webp", "cronocrimenes3.webp"],
         "reviews": [
           {
             "username": "carlos88",
@@ -51,9 +51,9 @@
           "Elliot Page",
           "Tom Hardy"
         ],
-        "poster": "Inception.jpg",
+        "poster": "Inception.webp",
         "trailer": "https://www.youtube.com/embed/YoHD9XEInc0?si=lDziz-Qc63NkbcRl",
-        "photos": ["inception1_2010_a_l.webp","25scott-span-articleLarge.webp","inception960x0.webp"],
+        "photos": ["Inception1.webp", "Inception2.webp", "Inception3.webp"],	
         "reviews": [
           {
             "username": "dreamer01",
@@ -85,9 +85,9 @@
           "Jessica Chastain",
           "Michael Caine"
         ],
-        "poster": "Interstellar.jpg",
+        "poster": "Interstellar.webp",
         "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E?si=ldA93s12-0gLzOIO",
-        "photos": ["interstellar1.jpg"],
+        "photos": ["Interstellar1.webp"],
         "reviews": [
           {
             "username": "spacefan",
@@ -119,9 +119,9 @@
           "Samantha Morton",
           "Max von Sydow"
         ],
-        "poster": "MinorityReport.jpg",
+        "poster": "MinorityReport.webp",
         "trailer": "https://www.youtube.com/embed/aGWQYgZZEEQ?si=Yv3EwOmxxMhMlTBN",
-        "photos": ["image-w856.jpg","InterfaceGestuelleMinorityReport.jpg"],
+        "photos": ["MinorityReport1.webp","MinorityReport2.webp"],
         "reviews": [
           {
             "username": "futuregazer",
@@ -143,19 +143,19 @@
         "release_date": "2000-10-11",
         "synopsis": "La memoria de Leonard, un investigador de una agencia de seguros, está irreversiblemente dañada debido a un golpe sufrido en la cabeza cuando intentaba evitar el asesinato de su mujer.",
         "director": "Christopher Nolan",
-        "detail": "Dirigida por Christopher Nolan, esta película de suspense psicológico presenta una narrativa no lineal que refleja la confusión mental del protagonista.",
+        "detail": "Dirigida por Christopher Nolan, esta película de suspenso psicológico presenta una narrativa no lineal que refleja la confusión mental del protagonista.",
         "review": "Una obra maestra que desafía la percepción del tiempo y la memoria.",
         "duration": "1h 53m",
-        "genres": ["Suspense Psicológico", "Misterio"],
+        "genres": ["Suspenso Psicológico", "Misterio"],
         "cast": [
           "Guy Pearce",
           "Carrie-Anne Moss",
           "Joe Pantoliano",
           "Mark Boone Junior"
         ],
-        "poster": "memento.jpg",
+        "poster": "memento.webp",
         "trailer": "https://www.youtube.com/embed/4CV41hoyS8A?si=LJquuGj0hFPxNUf4",
-        "photos": ["memento1.jpg","Memento 4.jpg","memento3.0.0.jpg","3-who-is-leonard-talking-to-on-the-phone-1676555878.jpg"],
+        "photos": ["memento1.webp","memento2.webp","memento3.webp","memento4.webp"],
         "reviews": [
           {
             "username": "memoriafragil",
@@ -187,9 +187,9 @@
           "Jennifer Connelly",
           "Christopher Plummer"
         ],
-        "poster": "mu1zDw4qxlUzrBizasO24unC766.jpg",
+        "poster": "Numero9.webp",
         "trailer": "https://www.youtube.com/embed/BtDqggbHzs8?si=W4HXJSWa79XiY98V",
-        "photos": ["numero9.webp","9-foto-destacada.webp","278ab3d2-b04c-4d08-8b53-8cd193353896-snapshot-1590663321-width936-quality15.jpeg"],
+        "photos": ["Numero9-1.webp","Numero9-2.webp","Numero9-3.webp"],
         "reviews": [
           {
             "username": "animacionfan",
@@ -221,9 +221,9 @@
           "Val Kilmer",
           "Jim Caviezel"
         ],
-        "poster": "583434.webp",
+        "poster": "dejavuPoster.webp",
         "trailer": "https://www.youtube.com/embed/uxdS8TP37I4?si=KjX99eIRMev_UP0h",
-        "photos": ["1H6SvEtfx1oT68Oz7rSZgzVzKUT.jpg","dejavu007.webp", "ns7mng8pi3771.webp"],
+        "photos": ["dejavu1.webp","dejavu2.webp", "dejavu3.webp"],
         "reviews": [
           {
             "username": "viajeroeneltiempo",
@@ -255,9 +255,9 @@
           "Vera Farmiga",
           "Jeffrey Wright"
         ],
-        "poster": "61kv2iHPugL._AC_UF1000,1000_QL80_.jpg",
+        "poster": "sourcecode.webp",
         "trailer": "https://www.youtube.com/embed/i71eXpmkZBY?si=T9fqA-S6C3lR3gzH",
-        "photos": ["image-w1280.webp","source1.jpg","video-source-code-articleLarge.jpg"],
+        "photos": ["sourcecode1.webp","sourcecode2.webp","sourcecode3.webp"],
         "reviews": [
           {
             "username": "realidadalternativa",
@@ -279,19 +279,19 @@
         "release_date": "2012-01-13",
         "synopsis": "Un ex policía amenaza con saltar desde la cornisa de un hotel en Manhattan, mientras que un equipo de negociadores intenta salvarlo, sin saber que detrás hay un elaborado plan.",
         "director": "Asger Leth",
-        "detail": "Un thriller de acción que combina suspense y giros inesperados, explorando los límites de la desesperación y la justicia.",
+        "detail": "Un thriller de acción que combina suspenso y giros inesperados, explorando los límites de la desesperación y la justicia.",
         "review": "Una película intensa que mantiene al espectador en vilo hasta el final.",
         "duration": "1h 42m",
-        "genres": ["Suspense", "Acción", "Crimen"],
+        "genres": ["Suspenso", "Acción", "Crimen"],
         "cast": [
           "Sam Worthington",
           "Elizabeth Banks",
           "Jamie Bell",
           "Anthony Mackie"
         ],
-        "poster": "49527-0.jpg",
+        "poster": "manonaedge.webp",
         "trailer": "https://www.youtube.com/embed/IXiK3QhXwDY?si=E8f9TcYP0TFU8kWS",
-        "photos": ["20210927212205_al-borde-del-abismo_amp_w1200.jpg","MV5BNTI2NDk4MTU0NV5BMl5BanBnXkFtZTcwOTQwMzQyNw@@._V1_.jpg","al-borde-del-abismo-2013-sam-worthington.jpg"],
+        "photos": ["manonaedge1.webp","manonaedge2.webp","manonaedge3.webp"],
         "reviews": [
           {
             "username": "thrillerfan",
@@ -316,16 +316,16 @@
         "detail": "Basada en un relato de Philip K. Dick, esta película mezcla acción y ciencia ficción en una carrera contrarreloj para descubrir la verdad.",
         "review": "Un thriller tecnológico con giros intrigantes y acción intensa.",
         "duration": "1h 59m",
-        "genres": ["Acción", "Ciencia Ficción", "Suspense"],
+        "genres": ["Acción", "Ciencia Ficción", "Suspenso"],
         "cast": [
           "Ben Affleck",
           "Uma Thurman",
           "Aaron Eckhart",
           "Paul Giamatti"
         ],
-        "poster": "paycheck.jpg",
+        "poster": "paycheck.webp",
         "trailer": "https://www.youtube.com/embed/rkE5I9nFqrI?si=BsQDtJb4bgbaeYhd",
-        "photos": ["MV5BMjE1OTQ1MDIwNV5BMl5BanBnXkFtZTYwNzExNzc3._V1_.jpg","paycheck_2003_photo_hero-1024x576.jpg","paycheck2.jpg"],
+        "photos": ["paycheck1.webp","paycheck2.webp","paycheck3.webp"],
         "reviews": [
           {
             "username": "techlover",
@@ -350,16 +350,16 @@
         "detail": "Una emotiva historia que combina ciencia ficción y drama familiar, explorando las consecuencias de cambiar el pasado.",
         "review": "Una narrativa conmovedora que entrelaza el tiempo y las relaciones familiares.",
         "duration": "1h 58m",
-        "genres": ["Ciencia Ficción", "Drama", "Suspense"],
+        "genres": ["Ciencia Ficción", "Drama", "Suspenso"],
         "cast": [
           "Dennis Quaid",
           "Jim Caviezel",
           "Elizabeth Mitchell",
           "Andre Braugher"
         ],
-        "poster": "Frequency-2000-poster.jpg",
+        "poster": "Frequency.webp",
         "trailer": "https://www.youtube.com/embed/jdACpDDpIUs?si=luzF_GXo_Ymw-Ijj",
-        "photos": ["image-w1280f.webp","bRGtZsVj2Qq8r5CCsNYmQUPF4z4.jpg","frequency-2000-movie-image.webp"],
+        "photos": ["Frequency1.webp","Frequency2.webp","Frequency3.webp"],
         "reviews": [
           {
             "username": "timebond",
@@ -384,16 +384,16 @@
         "detail": "Un thriller de ciencia ficción que explora la paranoia y la pérdida de identidad en un mundo de espionaje corporativo.",
         "review": "Una película intrigante que mantiene al espectador cuestionando la realidad.",
         "duration": "1h 35m",
-        "genres": ["Ciencia Ficción", "Suspense", "Misterio"],
+        "genres": ["Ciencia Ficción", "Suspenso", "Misterio"],
         "cast": [
           "Jeremy Northam",
           "Lucy Liu",
           "Nigel Bennett",
           "Timothy Webber"
         ],
-        "poster": "MV5BMTcyMDIwOTczMV5BMl5BanBnXkFtZTcwMDk5MTAzMQ@@._V1_.jpg",
+        "poster": "cypher.webp",
         "trailer": "https://www.youtube.com/embed/fmkk9icfkIA?si=vQg1nn7YDOsH8a1A",
-        "photos": ["Cypher-2002-Movie-Ending-Explained.webp","MV5BYWEzZWQyMjEtNjQ2MS00Y2Q4LWFmZmItYmQ0YTk0YjIzYjNmXkEyXkFqcGc@._V1_.jpg","cypher-vincenzo-natali-recensione-cyberpunk-film-2-1.webp"],
+        "photos": ["cypher1.webp","cypher2.webp","cypher3.webp"],
         "reviews": [
           {
             "username": "spyhunter",
