@@ -1,859 +1,857 @@
 {
-  
-    "movies": [
-      {
-        "id": 1,
-        "title": "Los Cronocrímenes",
-        "release_date": "2007-11-16",
-        "synopsis": "Un hombre se ve atrapado en una serie de eventos que desafían la lógica temporal.",
-        "director": "Nacho Vigalondo",
-        "detail": "Dirigida por Nacho Vigalondo, esta película española de ciencia ficción explora las paradojas temporales con un enfoque minimalista y tenso.",
-        "review": "Una obra intrigante que combina suspenso y ciencia ficción de manera efectiva, manteniendo al espectador en constante incertidumbre.",
-        "duration": "1h 46m",
-        "genres": ["Ciencia Ficción", "Thriller"],
-        "cast": [
-          "Karra Elejalde",
-          "Candela Fernández",
-          "Bárbara Goenaga",
-          "Nacho Vigalondo"
-        ],
-        "poster": "cronocrimenes.webp",
-        "trailer": "https://www.youtube.com/embed/vmi3OY7cQfA?si=b_6Qpmtc23PbeRp4",
-        "photos": ["cronocrimenes1.webp", "cronocrimenes2.webp", "cronocrimenes3.webp"],
-        "reviews": [
-          {
-            "username": "CineFan01",
-            "review": "Una película intrigante, me encantó cómo manejaron los viajes en el tiempo.",
-            "date": "2025-04-10",
-            "rating": 4.5
-          },
-          {
-            "username": "LauraMG",
-            "review": "Buena trama, aunque algunas cosas me parecieron confusas al principio.",
-            "date": "2025-04-11",
-            "rating": 3.8
-          },
-          {
-            "username": "TimeLooper",
-            "review": "Un thriller muy bien logrado. Tensión constante y giros inesperados.",
-            "date": "2025-04-12",
-            "rating": 4.9
-          },
-          {
-            "username": "Andres_8",
-            "review": "No es para todos, pero si te gusta el suspenso, es un must.",
-            "date": "2025-04-13",
-            "rating": 4.0
-          },
-          {
-            "username": "LuciaCC",
-            "review": "Visualmente sencilla, pero con una narrativa súper potente.",
-            "date": "2025-04-13",
-            "rating": 4.3
-          },
-          {
-            "username": "Rick_89",
-            "review": "No entendí mucho el final, pero me dejó pensando por días.",
-            "date": "2025-04-14",
-            "rating": 3.5
-          },
-          {
-            "username": "Zet4",
-            "review": "Excelente película española, original y atrapante desde el inicio.",
-            "date": "2025-04-15",
-            "rating": 5.0
-          }
-        ]
-        
-      },
-      {
-        "id": 2,
-        "title": "Inception",
-        "release_date": "2010-07-16",
-        "synopsis": "Un ladrón que roba secretos corporativos a través del uso de la tecnología de compartir sueños es dado la tarea inversa de plantar una idea en la mente de un CEO.",
-        "director": "Christopher Nolan",
-        "detail": "Una compleja exploración de los sueños y la realidad, con efectos visuales impresionantes y una narrativa envolvente.",
-        "review": "Una obra maestra moderna que desafía la percepción del tiempo y la conciencia.",
-        "duration": "2h 28m",
-        "genres": ["Acción", "Ciencia Ficción", "Aventura"],
-        "cast": [
-          "Leonardo DiCaprio",
-          "Joseph Gordon-Levitt",
-          "Elliot Page",
-          "Tom Hardy"
-        ],
-        "poster": "Inception.webp",
-        "trailer": "https://www.youtube.com/embed/YoHD9XEInc0?si=lDziz-Qc63NkbcRl",
-        "photos": ["Inception1.webp", "Inception2.webp", "Inception3.webp"],	
-        "reviews": [
-          {
-            "username": "NeoDreamer",
-            "review": "Una obra maestra. Cada vez que la veo descubro algo nuevo.",
-            "date": "2025-04-10",
-            "rating": 5.0
-          },
-          {
-            "username": "ValeMC",
-            "review": "Visualmente impresionante, pero hay que verla con atención.",
-            "date": "2025-04-11",
-            "rating": 4.6
-          },
-          {
-            "username": "DreamWithin",
-            "review": "¡Esa escena del pasillo girando es de otro nivel!",
-            "date": "2025-04-12",
-            "rating": 4.8
-          },
-          {
-            "username": "CrisN",
-            "review": "La idea es genial, pero me costó seguir algunas partes.",
-            "date": "2025-04-13",
-            "rating": 3.9
-          },
-          {
-            "username": "T0temUser",
-            "review": "¿Sigue soñando o no? Aún tengo esa duda. Genial final.",
-            "date": "2025-04-14",
-            "rating": 4.7
-          },
-          {
-            "username": "LucasFilm",
-            "review": "Excelente película de Nolan. Guion, música, todo encaja perfecto.",
-            "date": "2025-04-14",
-            "rating": 5.0
-          },
-          {
-            "username": "AnaR",
-            "review": "No es mi tipo de cine, pero reconozco su calidad.",
-            "date": "2025-04-15",
-            "rating": 3.5
-          }
-        ]
-        
-      },
-      {
-        "id": 3,
-        "title": "Interstellar",
-        "release_date": "2014-11-07",
-        "synopsis": "Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia de la humanidad.",
-        "director": "Christopher Nolan",
-        "detail": "Una épica odisea espacial que combina ciencia, emoción y espectaculares efectos visuales.",
-        "review": "Una experiencia cinematográfica que explora los límites del amor y la relatividad.",
-        "duration": "2h 49m",
-        "genres": ["Aventura", "Drama", "Ciencia Ficción"],
-        "cast": [
-          "Matthew McConaughey",
-          "Anne Hathaway",
-          "Jessica Chastain",
-          "Michael Caine"
-        ],
-        "poster": "Interstellar.webp",
-        "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E?si=ldA93s12-0gLzOIO",
-        "photos": ["Interstellar1.webp"],
-        "reviews": [
-          {
-            "username": "SpaceLover",
-            "review": "Una experiencia cinematográfica impresionante. La banda sonora de Hans Zimmer me erizó la piel. La escena del agujero negro... ¡brutal!",
-            "date": "2025-04-10",
-            "rating": 5.0
-          },
-          {
-            "username": "AstroFan",
-            "review": "La mezcla entre ciencia y emoción está muy bien lograda. Un poco densa a ratos, pero vale totalmente la pena.",
-            "date": "2025-04-11",
-            "rating": 4.5
-          },
-          {
-            "username": "LuNaTik",
-            "review": "no entendi mucho pero me hizo llorar 😭",
-            "date": "2025-04-12",
-            "rating": 4.0
-          },
-          {
-            "username": "CarlSaganVibes",
-            "review": "Excelente aproximación teórica a los viajes espaciales y el tiempo relativo. Aunque con licencias, Nolan fue ambicioso y acertó.",
-            "date": "2025-04-12",
-            "rating": 4.9
-          },
-          {
-            "username": "DarkMatter",
-            "review": "Un poco lenta al principio, pero el final... wow. El amor como dimensión es una idea que me voló la cabeza.",
-            "date": "2025-04-13",
-            "rating": 4.0
-          },
-          {
-            "username": "EmiG",
-            "review": "Me gustó pero no tanto como Inception. A veces muy filosófica.",
-            "date": "2025-04-14",
-            "rating": 2.8
-          },
-          {
-            "username": "BookcaseUser",
-            "review": "Una película que se queda contigo. La escena del mensaje con la hija es simplemente devastadora.",
-            "date": "2025-04-14",
-            "rating": 5.0
-          }
-        ]
-        
-      },
-      {
-        "id": 4,
-        "title": "Minority Report",
-        "release_date": "2002-06-21",
-        "synopsis": "En un futuro donde una unidad especial puede arrestar a asesinos antes de que cometan sus crímenes, un oficial es acusado de un asesinato que aún no ha cometido.",
-        "director": "Steven Spielberg",
-        "detail": "Una intensa mezcla de acción y ciencia ficción que plantea preguntas sobre el libre albedrío y la predestinación.",
-        "review": "Una visión futurista intrigante con una narrativa llena de giros.",
-        "duration": "2h 25m",
-        "genres": ["Acción", "Crimen", "Ciencia Ficción"],
-        "cast": [
-          "Tom Cruise",
-          "Colin Farrell",
-          "Samantha Morton",
-          "Max von Sydow"
-        ],
-        "poster": "MinorityReport.webp",
-        "trailer": "https://www.youtube.com/embed/aGWQYgZZEEQ?si=Yv3EwOmxxMhMlTBN",
-        "photos": ["MinorityReport1.webp","MinorityReport2.webp"],
-        "reviews": [
-          {
-            "username": "PreCrimeFan",
-            "review": "Una visión fascinante del futuro. El concepto de arrestar antes de cometer el crimen es inquietante pero brillante.",
-            "date": "2025-04-10",
-            "rating": 4.8
-          },
-          {
-            "username": "NeoTech",
-            "review": "La estética futurista y la tecnología mostrada están muy bien pensadas. Spielberg lo hizo otra vez.",
-            "date": "2025-04-11",
-            "rating": 4.5
-          },
-          {
-            "username": "tomy_cruise",
-            "review": "Tom Cruise la rompe. Buena mezcla de acción y sci-fi, aunque a veces se pone un poco lenta. Te amo Tom 😘.",
-            "date": "2025-04-12",
-            "rating": 4.0
-          },
-          {
-            "username": "SciFiCritic",
-            "review": "Aunque plantea una gran idea, la ejecución se queda corta en algunos momentos. Esperaba más profundidad filosófica.",
-            "date": "2025-04-12",
-            "rating": 3.7
-          },
-          {
-            "username": "justAnotherViewer",
-            "review": "Está buena, pero no entendí muy bien lo de los Precogs. Igual me entretuvo.",
-            "date": "2025-04-13",
-            "rating": 3.5
-          },
-          {
-            "username": "future_is_now",
-            "review": "La dirección artística es increíble. Todo parece posible incluso hoy. La historia te atrapa desde el inicio.",
-            "date": "2025-04-14",
-            "rating": 4.6
-          },
-          {
-            "username": "BlueShadows",
-            "review": "Un thriller tecnológico con mensaje social. Spielberg combina acción con una crítica al control del Estado.",
-            "date": "2025-04-14",
-            "rating": 4.3
-          }
-        ]
-        
-      },
-      {
-        "id": 5,
-        "title": "Memento",
-        "release_date": "2000-10-11",
-        "synopsis": "La memoria de Leonard, un investigador de una agencia de seguros, está irreversiblemente dañada debido a un golpe sufrido en la cabeza cuando intentaba evitar el asesinato de su mujer.",
-        "director": "Christopher Nolan",
-        "detail": "Dirigida por Christopher Nolan, esta película de suspenso psicológico presenta una narrativa no lineal que refleja la confusión mental del protagonista.",
-        "review": "Una obra maestra que desafía la percepción del tiempo y la memoria.",
-        "duration": "1h 53m",
-        "genres": ["Suspenso Psicológico", "Misterio"],
-        "cast": [
-          "Guy Pearce",
-          "Carrie-Anne Moss",
-          "Joe Pantoliano",
-          "Mark Boone Junior"
-        ],
-        "poster": "memento.webp",
-        "trailer": "https://www.youtube.com/embed/4CV41hoyS8A?si=LJquuGj0hFPxNUf4",
-        "photos": ["memento1.webp","memento2.webp","memento3.webp","memento4.webp"],
-        "reviews": [
-          {
-            "username": "MindTwister",
-            "review": "Una obra maestra narrativa. El uso de la memoria como mecanismo de trama es simplemente brillante.",
-            "date": "2025-04-10",
-            "rating": 5.0
-          },
-          {
-            "username": "nolanFan",
-            "review": "Christopher Nolan demuestra desde temprano su capacidad para jugar con el tiempo y la mente del espectador.",
-            "date": "2025-04-11",
-            "rating": 4.8
-          },
-          {
-            "username": "invertedLogic",
-            "review": "Al principio cuesta seguir el hilo, pero una vez que entras en el ritmo, no hay vuelta atrás. Es adictiva.",
-            "date": "2025-04-11",
-            "rating": 4.6
-          },
-          {
-            "username": "leni_mem",
-            "review": "Muy buena, aunque confusa si no prestas atención. Hay que verla más de una vez.",
-            "date": "2025-04-12",
-            "rating": 4.2
-          },
-          {
-            "username": "simpleViewer",
-            "review": "Me mareé un poco con el orden de las escenas, pero el final lo arregla todo.",
-            "date": "2025-04-12",
-            "rating": 3.9
-          },
-          {
-            "username": "darkFrame",
-            "review": "El guion está muy bien armado. Oscura, intrigante y con un personaje principal muy bien desarrollado.",
-            "date": "2025-04-13",
-            "rating": 4.7
-          },
-          {
-            "username": "ReverseGuy",
-            "review": "Es como ver un rompecabezas armado al revés. Increíble experiencia cinematográfica.",
-            "date": "2025-04-13",
-            "rating": 4.9
-          },
-          {
-            "username": "lostViewer",
-            "review": "Demasiado enredada. Tuve que buscar explicaciones en internet para entender algo.",
-            "date": "2025-04-14",
-            "rating": 2.5
-          },
-          {
-            "username": "filmCritic88",
-            "review": "La estructura inversa es original, pero siento que depende demasiado de eso. Sin el truco, la historia no destaca.",
-            "date": "2025-04-15",
-            "rating": 3.0
-          },
-          {
-            "username": "mehFilm",
-            "review": "No es para mí. Se toma demasiado en serio y se vuelve pretenciosa por momentos.",
-            "date": "2025-04-15",
-            "rating": 2.8
-          },
-          {
-            "username": "cinefojo",
-            "review": "La idea está buena, pero no logra conectar emocionalmente con el protagonista. Todo se siente muy frío.",
-            "date": "2025-04-16",
-            "rating": 3.2
-          },
-          {
-            "username": "mementoWho",
-            "review": "¿Qué acabo de ver? Me perdí completamente. Hay mejores thrillers psicológicos allá afuera.",
-            "date": "2025-04-16",
-            "rating": 2.0
-          }
-        ]
-        
-      },
-      {
-        "id": 6,
-        "title": "Número 9",
-        "release_date": "2009-09-09",
-        "synopsis": "En un mundo post-apocalíptico, nueve muñecos de trapo luchan por sobrevivir y preservar el futuro de la civilización enfrentándose a máquinas gigantes.",
-        "director": "Shane Acker",
-        "detail": "Una película animada que combina acción y fantasía, basada en el cortometraje homónimo nominado al Óscar.",
-        "review": "Visualmente impactante y emocionalmente resonante.",
-        "duration": "1h 19m",
-        "genres": ["Animación", "Fantasía", "Ciencia Ficción"],
-        "cast": [
-          "Elijah Wood",
-          "John C. Reilly",
-          "Jennifer Connelly",
-          "Christopher Plummer"
-        ],
-        "poster": "Numero9.webp",
-        "trailer": "https://www.youtube.com/embed/BtDqggbHzs8?si=W4HXJSWa79XiY98V",
-        "photos": ["Numero9-1.webp","Numero9-2.webp","Numero9-3.webp"],
-        "reviews": [
-          {
-            "username": "fanAnimado",
-            "review": "Visualmente impresionante. La animación es oscura pero bellísima.",
-            "date": "2025-04-14",
-            "rating": 4.5
-          },
-          {
-            "username": "cineCurioso",
-            "review": "La historia es intrigante, aunque sentí que le faltó desarrollo en algunos personajes.",
-            "date": "2025-04-15",
-            "rating": 3.8
-          },
-          {
-            "username": "robotFan97",
-            "review": "Me encantó la estética postapocalíptica y el concepto de las almas en las muñecas. Muy creativo.",
-            "date": "2025-04-15",
-            "rating": 4.7
-          },
-          {
-            "username": "filmAddict",
-            "review": "Interesante, pero esperaba más profundidad en la trama. Visualmente top.",
-            "date": "2025-04-16",
-            "rating": 3.4
-          },
-          {
-            "username": "noConvence",
-            "review": "Gráficamente bonita, pero vacía. Sentí que la película no supo aprovechar su potencial.",
-            "date": "2025-04-16",
-            "rating": 2.7
-          },
-          {
-            "username": "storyMatters",
-            "review": "El mensaje está bien, pero la ejecución fue floja. El guion no me atrapó.",
-            "date": "2025-04-16",
-            "rating": 2.5
-          },
-          {
-            "username": "plotLost",
-            "review": "Bonita de ver, pero me perdí. Demasiadas cosas sin explicación.",
-            "date": "2025-04-16",
-            "rating": 2.0
-          },
-          {
-            "username": "darkStyle",
-            "review": "Oscura y fascinante. No es para todos, pero a mí me atrapó.",
-            "date": "2025-04-15",
-            "rating": 4.3
-          }
-        ]
-        
-      },
-      {
-        "id": 7,
-        "title": "Déjà Vu",
-        "release_date": "2006-11-22",
-        "synopsis": "El agente Doug Carlin investiga una explosión en un ferry en Nueva Orleans y descubre una tecnología que le permite ver el pasado para prevenir futuros crímenes.",
-        "director": "Tony Scott",
-        "detail": "Un thriller de ciencia ficción que explora la posibilidad de cambiar el pasado para alterar el futuro.",
-        "review": "Una mezcla emocionante de acción y ciencia ficción con giros inesperados.",
-        "duration": "2h 6m",
-        "genres": ["Thriller", "Ciencia Ficción", "Acción"],
-        "cast": [
-          "Denzel Washington",
-          "Paula Patton",
-          "Val Kilmer",
-          "Jim Caviezel"
-        ],
-        "poster": "dejavuPoster.webp",
-        "trailer": "https://www.youtube.com/embed/uxdS8TP37I4?si=KjX99eIRMev_UP0h",
-        "photos": ["dejavu1.webp","dejavu2.webp", "dejavu3.webp"],
-        "reviews": [
-          {
-            "username": "timeTwister",
-            "review": "Una excelente mezcla de acción y ciencia ficción. Denzel lo hace increíble como siempre.",
-            "date": "2025-04-14",
-            "rating": 4.6
-          },
-          {
-            "username": "filmJunkie",
-            "review": "La idea del viaje temporal se ejecuta bastante bien, aunque hay huecos argumentales.",
-            "date": "2025-04-15",
-            "rating": 3.9
-          },
-          {
-            "username": "fanThriller",
-            "review": "¡Intensa! La trama te mantiene atrapado hasta el final.",
-            "date": "2025-04-15",
-            "rating": 4.3
-          },
-          {
-            "username": "confusedWatcher",
-            "review": "La historia me pareció confusa por momentos, aunque al final cerró bien.",
-            "date": "2025-04-16",
-            "rating": 3.2
-          },
-          {
-            "username": "detallesImportan",
-            "review": "Buena premisa, pero la ciencia detrás del viaje en el tiempo no convence del todo.",
-            "date": "2025-04-16",
-            "rating": 2.8
-          },
-          {
-            "username": "realistaFan",
-            "review": "Entretenida, pero poco realista. Algunas escenas fueron demasiado forzadas.",
-            "date": "2025-04-16",
-            "rating": 2.5
-          },
-          {
-            "username": "denzelFan",
-            "review": "Solo la vi por Denzel y no me decepcionó. Él sostiene toda la película.",
-            "date": "2025-04-15",
-            "rating": 4.1
-          },
-          {
-            "username": "notMyThing",
-            "review": "No conecté con la historia. El ritmo fue irregular y predecible en partes.",
-            "date": "2025-04-16",
-            "rating": 2.3
-          }
-        ]
-        
-      },
-      {
-        "id": 8,
-        "title": "Source Code",
-        "release_date": "2011-03-30",
-        "synopsis": "El capitán Colter Stevens se despierta en el cuerpo de otra persona y descubre que forma parte de un experimento para encontrar al responsable de un atentado en un tren.",
-        "director": "Duncan Jones",
-        "detail": "Una película de ciencia ficción que combina acción y misterio, explorando conceptos de identidad y realidad.",
-        "review": "Una historia envolvente que te hace cuestionar la realidad.",
-        "duration": "1h 33m",
-        "genres": ["Ciencia Ficción", "Thriller", "Misterio"],
-        "cast": [
-          "Jake Gyllenhaal",
-          "Michelle Monaghan",
-          "Vera Farmiga",
-          "Jeffrey Wright"
-        ],
-        "poster": "sourcecode.webp",
-        "trailer": "https://www.youtube.com/embed/i71eXpmkZBY?si=T9fqA-S6C3lR3gzH",
-        "photos": ["sourcecode1.webp","sourcecode2.webp","sourcecode3.webp"],
-        "reviews": [
-          {
-            "username": "timeTwister",
-            "review": "Una excelente mezcla de acción y ciencia ficción. Denzel lo hace increíble como siempre.",
-            "date": "2025-04-14",
-            "rating": 4.6
-          },
-          {
-            "username": "filmJunkie",
-            "review": "La idea del viaje temporal se ejecuta bastante bien, aunque hay huecos argumentales.",
-            "date": "2025-04-15",
-            "rating": 3.9
-          },
-          {
-            "username": "fanThriller",
-            "review": "¡Intensa! La trama te mantiene atrapado hasta el final.",
-            "date": "2025-04-15",
-            "rating": 4.3
-          },
-          {
-            "username": "confusedWatcher",
-            "review": "La historia me pareció confusa por momentos, aunque al final cerró bien.",
-            "date": "2025-04-16",
-            "rating": 3.2
-          },
-          {
-            "username": "detallesImportan",
-            "review": "Buena premisa, pero la ciencia detrás del viaje en el tiempo no convence del todo.",
-            "date": "2025-04-16",
-            "rating": 2.8
-          },
-          {
-            "username": "realistaFan",
-            "review": "Entretenida, pero poco realista. Algunas escenas fueron demasiado forzadas.",
-            "date": "2025-04-16",
-            "rating": 2.5
-          },
-          {
-            "username": "denzelFan",
-            "review": "Solo la vi por Denzel y no me decepcionó. Él sostiene toda la película.",
-            "date": "2025-04-15",
-            "rating": 4.1
-          },
-          {
-            "username": "notMyThing",
-            "review": "No conecté con la historia. El ritmo fue irregular y predecible en partes.",
-            "date": "2025-04-16",
-            "rating": 2.3
-          }
-        ]
-        
-      },
-      {
-        "id": 9,
-        "title": "Al borde del abismo",
-        "release_date": "2012-01-13",
-        "synopsis": "Un ex policía amenaza con saltar desde la cornisa de un hotel en Manhattan, mientras que un equipo de negociadores intenta salvarlo, sin saber que detrás hay un elaborado plan.",
-        "director": "Asger Leth",
-        "detail": "Un thriller de acción que combina suspenso y giros inesperados, explorando los límites de la desesperación y la justicia.",
-        "review": "Una película intensa que mantiene al espectador en vilo hasta el final.",
-        "duration": "1h 42m",
-        "genres": ["Suspenso", "Acción", "Crimen"],
-        "cast": [
-          "Sam Worthington",
-          "Elizabeth Banks",
-          "Jamie Bell",
-          "Anthony Mackie"
-        ],
-        "poster": "manonaedge.webp",
-        "trailer": "https://www.youtube.com/embed/IXiK3QhXwDY?si=E8f9TcYP0TFU8kWS",
-        "photos": ["manonaedge1.webp","manonaedge2.webp","manonaedge3.webp"],
-        "reviews": [
-          {
-            "username": "cinephile123",
-            "review": "Una película que te mantiene al borde del asiento. La actuación de la protagonista es impresionante.",
-            "date": "2025-04-17",
-            "rating": 4.8
-          },
-          {
-            "username": "thrillSeeker",
-            "review": "La tensión en la película está muy bien lograda, pero esperaba más profundidad en la trama.",
-            "date": "2025-04-17",
-            "rating": 4.0
-          },
-          {
-            "username": "movieBuff",
-            "review": "Aunque la trama es interesante, algunos giros se sienten predecibles. Aún así, vale la pena ver.",
-            "date": "2025-04-18",
-            "rating": 3.7
-          },
-          {
-            "username": "cineAdicto",
-            "review": "El final fue demasiado abrupto y no cerró bien las historias de los personajes.",
-            "date": "2025-04-18",
-            "rating": 2.9
-          },
-          {
-            "username": "filmCritic",
-            "review": "Las escenas de acción son geniales, pero el guion se queda corto. Pudo haber sido mucho mejor.",
-            "date": "2025-04-19",
-            "rating": 3.2
-          },
-          {
-            "username": "suspenseLover",
-            "review": "Me encantó la atmósfera de suspense. Muy bien dirigida, pero un poco floja en la parte final.",
-            "date": "2025-04-19",
-            "rating": 4.0
-          },
-          {
-            "username": "notImpressed",
-            "review": "Me decepcionó mucho. La historia no me convenció y los personajes eran bastante planos.",
-            "date": "2025-04-19",
-            "rating": 2.1
-          },
-          {
-            "username": "actionFanatic",
-            "review": "Es una película de acción decente, pero no es nada del otro mundo. Hay mejores opciones en este género.",
-            "date": "2025-04-19",
-            "rating": 2.8
-          }
-        ]
-        
-      },
-      {
-        "id": 10,
-        "title": "Paycheck",
-        "release_date": "2003-12-25",
-        "synopsis": "Un ingeniero especializado en proyectos secretos acepta que le borren la memoria tras cada trabajo, pero tras su último encargo, descubre que ha sido traicionado y debe reconstruir su pasado.",
-        "director": "John Woo",
-        "detail": "Basada en un relato de Philip K. Dick, esta película mezcla acción y ciencia ficción en una carrera contrarreloj para descubrir la verdad.",
-        "review": "Un thriller tecnológico con giros intrigantes y acción intensa.",
-        "duration": "1h 59m",
-        "genres": ["Acción", "Ciencia Ficción", "Suspenso"],
-        "cast": [
-          "Ben Affleck",
-          "Uma Thurman",
-          "Aaron Eckhart",
-          "Paul Giamatti"
-        ],
-        "poster": "paycheck.webp",
-        "trailer": "https://www.youtube.com/embed/rkE5I9nFqrI?si=BsQDtJb4bgbaeYhd",
-        "photos": ["paycheck1.webp","paycheck2.webp","paycheck3.webp"],
-        "reviews": [
-          {
-            "username": "actionLover01",
-            "review": "Una película entretenida con una trama intrigante. La idea de borrar la memoria y los giros de la historia realmente me mantuvieron enganchado.",
-            "date": "2025-04-17",
-            "rating": 4.2
-          },
-          {
-            "username": "filmFanatic",
-            "review": "Aunque la idea es interesante, la ejecución no fue tan impresionante. Algunas escenas de acción me parecieron un poco forzadas.",
-            "date": "2025-04-17",
-            "rating": 4.0
-          },
-          {
-            "username": "thrillerAddict",
-            "review": "Me gustaron los giros inesperados, pero el desarrollo de los personajes podría haber sido mejor. Aún así, una película decente.",
-            "date": "2025-04-18",
-            "rating": 3.7
-          },
-          {
-            "username": "cinemaLover42",
-            "review": "La trama es interesante, pero la película no logra generar la tensión que prometía. La película me dejó con ganas de más.",
-            "date": "2025-04-18",
-            "rating": 3.0
-          },
-          {
-            "username": "movieBuff21",
-            "review": "Una película de acción mediocre. Aunque la premisa era buena, la ejecución no estuvo a la altura. No es una de mis favoritas.",
-            "date": "2025-04-19",
-            "rating": 2.8
-          },
-          {
-            "username": "cinephile_23",
-            "review": "Muy entretenida, pero a veces se siente como una película de acción genérica. La idea de la memoria borrada es genial, pero podría haber sido más profunda.",
-            "date": "2025-04-19",
-            "rating": 3.9
-          },
-          {
-            "username": "notImpressed123",
-            "review": "Es una película olvidable. No me impresionó en absoluto y los giros no fueron tan sorprendentes como esperaba.",
-            "date": "2025-04-19",
-            "rating": 2.8
-          },
-          {
-            "username": "movieCriticX",
-            "review": "La trama parece prometedora, pero termina siendo predecible. Una decepción considerando el elenco y la premisa.",
-            "date": "2025-04-19",
-            "rating": 2.6
-          }
-        ]
-        
-      },
-      {
-        "id": 11,
-        "title": "Frequency",
-        "release_date": "2000-04-28",
-        "synopsis": "Un fenómeno meteorológico permite a un hijo comunicarse con su padre fallecido 30 años antes, lo que desencadena una serie de eventos que alteran el pasado y el presente.",
-        "director": "Gregory Hoblit",
-        "detail": "Una emotiva historia que combina ciencia ficción y drama familiar, explorando las consecuencias de cambiar el pasado.",
-        "review": "Una narrativa conmovedora que entrelaza el tiempo y las relaciones familiares.",
-        "duration": "1h 58m",
-        "genres": ["Ciencia Ficción", "Drama", "Suspenso"],
-        "cast": [
-          "Dennis Quaid",
-          "Jim Caviezel",
-          "Elizabeth Mitchell",
-          "Andre Braugher"
-        ],
-        "poster": "Frequency.webp",
-        "trailer": "https://www.youtube.com/embed/jdACpDDpIUs?si=luzF_GXo_Ymw-Ijj",
-        "photos": ["Frequency1.webp","Frequency2.webp","Frequency3.webp"],
-        "reviews": [
-          {
-            "username": "timeTravelFan",
-            "review": "Una película fascinante que mezcla ciencia ficción y drama de forma impecable. Me encantó cómo la comunicación a través de la radio impacta el destino de los personajes. ¡Totalmente recomendable!",
-            "date": "2025-04-17",
-            "rating": 4.5
-          },
-          {
-            "username": "movieLover101",
-            "review": "La premisa es increíble, y los giros en la trama me sorprendieron. Aunque algunos momentos se sienten un poco forzados, la película me dejó pensando mucho tiempo después.",
-            "date": "2025-04-18",
-            "rating": 4.0
-          },
-          {
-            "username": "scienceFreak22",
-            "review": "Me encantó la idea de la película, pero la ejecución no fue perfecta. Algunos aspectos de la trama fueron demasiado previsibles. Aún así, es una película divertida de ver.",
-            "date": "2025-04-18",
-            "rating": 3.7
-          },
-          {
-            "username": "filmGeek97",
-            "review": "La película tiene una trama interesante, pero me parece que no aprovechó todo su potencial. El concepto de viajar en el tiempo a través de la radio podría haberse explorado más a fondo.",
-            "date": "2025-04-19",
-            "rating": 3.2
-          },
-          {
-            "username": "dramaFan123",
-            "review": "Es una mezcla agradable de drama familiar y ciencia ficción, pero algunos de los giros de la historia se sintieron un poco forzados. Aun así, me mantuvo entretenido.",
-            "date": "2025-04-19",
-            "rating": 3.8
-          },
-          {
-            "username": "nostalgiaLover",
-            "review": "Me encantó la dinámica entre padre e hijo, y la forma en que la película mezcla el drama con elementos de ciencia ficción. Es una historia que toca el corazón.",
-            "date": "2025-04-19",
-            "rating": 4.3
-          },
-          {
-            "username": "cinemaCritic",
-            "review": "La película tiene un buen inicio, pero a medida que avanza pierde algo de ritmo. Los personajes están bien, pero la trama se siente como si pudiera haber sido más profunda.",
-            "date": "2025-04-19",
-            "rating": 3.0
-          },
-          {
-            "username": "notImpressed_2025",
-            "review": "Es una película bastante predecible en muchos aspectos, y aunque tiene un concepto interesante, no logró mantener mi atención por mucho tiempo. Esperaba más.",
-            "date": "2025-04-19",
-            "rating": 2.5
-          }
-        ]
-        
-      },
-      {
-        "id": 12,
-        "title": "Cypher",
-        "release_date": "2002-10-01",
-        "synopsis": "Un contable aburrido se convierte en espía corporativo, pero pronto se ve atrapado en una red de engaños y manipulación que lo hace cuestionar su identidad.",
-        "director": "Vincenzo Natali",
-        "detail": "Un thriller de ciencia ficción que explora la paranoia y la pérdida de identidad en un mundo de espionaje corporativo.",
-        "review": "Una película intrigante que mantiene al espectador cuestionando la realidad.",
-        "duration": "1h 35m",
-        "genres": ["Ciencia Ficción", "Suspenso", "Misterio"],
-        "cast": [
-          "Jeremy Northam",
-          "Lucy Liu",
-          "Nigel Bennett",
-          "Timothy Webber"
-        ],
-        "poster": "cypher.webp",
-        "trailer": "https://www.youtube.com/embed/fmkk9icfkIA?si=vQg1nn7YDOsH8a1A",
-        "photos": ["cypher1.webp","cypher2.webp","cypher3.webp"],
-        "reviews": [
-          {
-            "username": "mindBenderX",
-            "review": "Una película que desafía la mente. La trama de espionaje y el giro final me dejaron boquiabierto. Me encantó cómo mantiene la tensión todo el tiempo. Definitivamente una joya subestimada.",
-            "date": "2025-04-17",
-            "rating": 4.7
-          },
-          {
-            "username": "thrillerFanatic",
-            "review": "Me gustó mucho la atmósfera de paranoia y los giros de la trama. Aunque algunos momentos se sintieron lentos, el final valió la pena. Una película de culto para los fanáticos de los thrillers psicológicos.",
-            "date": "2025-04-18",
-            "rating": 4.2
-          },
-          {
-            "username": "spyMovieLover",
-            "review": "Aunque el concepto de espionaje corporativo es interesante, me parece que la película no logra desarrollar completamente su potencial. Los giros de la trama fueron impredecibles, pero en algunos puntos la historia se siente desordenada.",
-            "date": "2025-04-18",
-            "rating": 3.6
-          },
-          {
-            "username": "filmEnthusiast",
-            "review": "Es una película intrigante con un buen concepto, pero le faltó un poco más de desarrollo de los personajes y un ritmo más consistente. A pesar de eso, el giro final fue sorprendente.",
-            "date": "2025-04-19",
-            "rating": 3.8
-          },
-          {
-            "username": "suspenseSeeker",
-            "review": "Me sentí muy confundido durante gran parte de la película. La trama no es fácil de seguir, y aunque la idea es interesante, la ejecución dejó que deseara más claridad en algunos aspectos.",
-            "date": "2025-04-19",
-            "rating": 2.9
-          },
-          {
-            "username": "techNoirFan",
-            "review": "Si te gustan los thrillers tecnológicos y de conspiraciones, esta película te atrapará. Tiene una atmósfera única, aunque algunos de los giros y detalles pueden ser difíciles de digerir.",
-            "date": "2025-04-19",
-            "rating": 4.1
-          },
-          {
-            "username": "actionAdict",
-            "review": "Es una película interesante en cuanto a la trama, pero no tiene mucha acción ni momentos emocionantes. Aunque el suspenso está bien manejado, me hubiera gustado más dinamismo.",
-            "date": "2025-04-19",
-            "rating": 3.0
-          },
-          {
-            "username": "confusedViewer",
-            "review": "La película intenta ser más compleja de lo que realmente es. Si bien tiene un giro interesante, me costó mucho entender lo que estaba pasando. No fue tan satisfactoria como esperaba.",
-            "date": "2025-04-19",
-            "rating": 2.3
-          }
-        ]
-        
-      }
-    ]
-  }  
+  "movies": [
+    {
+      "id": 1,
+      "title": "Los Cronocrímenes",
+      "release_date": "2007-11-16",
+      "synopsis": "Un hombre se ve atrapado en una serie de eventos que desafían la lógica temporal.",
+      "director": "Nacho Vigalondo",
+      "detail": "Dirigida por Nacho Vigalondo, esta película española de ciencia ficción explora las paradojas temporales con un enfoque minimalista y tenso.",
+      "review": "Una obra intrigante que combina suspenso y ciencia ficción de manera efectiva, manteniendo al espectador en constante incertidumbre.",
+      "duration": "1h 46m",
+      "genres": ["Ciencia Ficción", "Thriller"],
+      "cast": [
+        "Karra Elejalde",
+        "Candela Fernández",
+        "Bárbara Goenaga",
+        "Nacho Vigalondo"
+      ],
+      "poster": "cronocrimenes.webp",
+      "trailer": "https://www.youtube.com/embed/vmi3OY7cQfA?si=b_6Qpmtc23PbeRp4",
+      "photos": ["cronocrimenes1.webp", "cronocrimenes2.webp", "cronocrimenes3.webp"],
+      "reviews": [
+        {
+          "username": "CineFan01",
+          "review": "Una película intrigante, me encantó cómo manejaron los viajes en el tiempo.",
+          "date": "2025-04-10",
+          "rating": 4.5
+        },
+        {
+          "username": "LauraMG",
+          "review": "Buena trama, aunque algunas cosas me parecieron confusas al principio.",
+          "date": "2025-04-11",
+          "rating": 3.8
+        },
+        {
+          "username": "TimeLooper",
+          "review": "Un thriller muy bien logrado. Tensión constante y giros inesperados.",
+          "date": "2025-04-12",
+          "rating": 4.9
+        },
+        {
+          "username": "Andres_8",
+          "review": "No es para todos, pero si te gusta el suspenso, es un must.",
+          "date": "2025-04-13",
+          "rating": 4.0
+        },
+        {
+          "username": "LuciaCC",
+          "review": "Visualmente sencilla, pero con una narrativa súper potente.",
+          "date": "2025-04-13",
+          "rating": 4.3
+        },
+        {
+          "username": "Rick_89",
+          "review": "No entendí mucho el final, pero me dejó pensando por días.",
+          "date": "2025-04-14",
+          "rating": 3.5
+        },
+        {
+          "username": "Zet4",
+          "review": "Excelente película española, original y atrapante desde el inicio.",
+          "date": "2025-04-15",
+          "rating": 5.0
+        }
+      ]
+      
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "release_date": "2010-07-16",
+      "synopsis": "Un ladrón que roba secretos corporativos a través del uso de la tecnología de compartir sueños es dado la tarea inversa de plantar una idea en la mente de un CEO.",
+      "director": "Christopher Nolan",
+      "detail": "Una compleja exploración de los sueños y la realidad, con efectos visuales impresionantes y una narrativa envolvente.",
+      "review": "Una obra maestra moderna que desafía la percepción del tiempo y la conciencia.",
+      "duration": "2h 28m",
+      "genres": ["Acción", "Ciencia Ficción", "Aventura"],
+      "cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Elliot Page",
+        "Tom Hardy"
+      ],
+      "poster": "Inception.webp",
+      "trailer": "https://www.youtube.com/embed/YoHD9XEInc0?si=lDziz-Qc63NkbcRl",
+      "photos": ["Inception1.webp", "Inception2.webp", "Inception3.webp"],	
+      "reviews": [
+        {
+          "username": "NeoDreamer",
+          "review": "Una obra maestra. Cada vez que la veo descubro algo nuevo.",
+          "date": "2025-04-10",
+          "rating": 5.0
+        },
+        {
+          "username": "ValeMC",
+          "review": "Visualmente impresionante, pero hay que verla con atención.",
+          "date": "2025-04-11",
+          "rating": 4.6
+        },
+        {
+          "username": "DreamWithin",
+          "review": "¡Esa escena del pasillo girando es de otro nivel!",
+          "date": "2025-04-12",
+          "rating": 4.8
+        },
+        {
+          "username": "CrisN",
+          "review": "La idea es genial, pero me costó seguir algunas partes.",
+          "date": "2025-04-13",
+          "rating": 3.9
+        },
+        {
+          "username": "T0temUser",
+          "review": "¿Sigue soñando o no? Aún tengo esa duda. Genial final.",
+          "date": "2025-04-14",
+          "rating": 4.7
+        },
+        {
+          "username": "LucasFilm",
+          "review": "Excelente película de Nolan. Guion, música, todo encaja perfecto.",
+          "date": "2025-04-14",
+          "rating": 5.0
+        },
+        {
+          "username": "AnaR",
+          "review": "No es mi tipo de cine, pero reconozco su calidad.",
+          "date": "2025-04-15",
+          "rating": 3.5
+        }
+      ]
+      
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "release_date": "2014-11-07",
+      "synopsis": "Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia de la humanidad.",
+      "director": "Christopher Nolan",
+      "detail": "Una épica odisea espacial que combina ciencia, emoción y espectaculares efectos visuales.",
+      "review": "Una experiencia cinematográfica que explora los límites del amor y la relatividad.",
+      "duration": "2h 49m",
+      "genres": ["Aventura", "Drama", "Ciencia Ficción"],
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain",
+        "Michael Caine"
+      ],
+      "poster": "Interstellar.webp",
+      "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E?si=ldA93s12-0gLzOIO",
+      "photos": ["Interstellar1.webp"],
+      "reviews": [
+        {
+          "username": "SpaceLover",
+          "review": "Una experiencia cinematográfica impresionante. La banda sonora de Hans Zimmer me erizó la piel. La escena del agujero negro... ¡brutal!",
+          "date": "2025-04-10",
+          "rating": 5.0
+        },
+        {
+          "username": "AstroFan",
+          "review": "La mezcla entre ciencia y emoción está muy bien lograda. Un poco densa a ratos, pero vale totalmente la pena.",
+          "date": "2025-04-11",
+          "rating": 4.5
+        },
+        {
+          "username": "LuNaTik",
+          "review": "no entendi mucho pero me hizo llorar 😭",
+          "date": "2025-04-12",
+          "rating": 4.0
+        },
+        {
+          "username": "CarlSaganVibes",
+          "review": "Excelente aproximación teórica a los viajes espaciales y el tiempo relativo. Aunque con licencias, Nolan fue ambicioso y acertó.",
+          "date": "2025-04-12",
+          "rating": 4.9
+        },
+        {
+          "username": "DarkMatter",
+          "review": "Un poco lenta al principio, pero el final... wow. El amor como dimensión es una idea que me voló la cabeza.",
+          "date": "2025-04-13",
+          "rating": 4.0
+        },
+        {
+          "username": "EmiG",
+          "review": "Me gustó pero no tanto como Inception. A veces muy filosófica.",
+          "date": "2025-04-14",
+          "rating": 2.8
+        },
+        {
+          "username": "BookcaseUser",
+          "review": "Una película que se queda contigo. La escena del mensaje con la hija es simplemente devastadora.",
+          "date": "2025-04-14",
+          "rating": 5.0
+        }
+      ]
+      
+    },
+    {
+      "id": 4,
+      "title": "Minority Report",
+      "release_date": "2002-06-21",
+      "synopsis": "En un futuro donde una unidad especial puede arrestar a asesinos antes de que cometan sus crímenes, un oficial es acusado de un asesinato que aún no ha cometido.",
+      "director": "Steven Spielberg",
+      "detail": "Una intensa mezcla de acción y ciencia ficción que plantea preguntas sobre el libre albedrío y la predestinación.",
+      "review": "Una visión futurista intrigante con una narrativa llena de giros.",
+      "duration": "2h 25m",
+      "genres": ["Acción", "Crimen", "Ciencia Ficción"],
+      "cast": [
+        "Tom Cruise",
+        "Colin Farrell",
+        "Samantha Morton",
+        "Max von Sydow"
+      ],
+      "poster": "MinorityReport.webp",
+      "trailer": "https://www.youtube.com/embed/aGWQYgZZEEQ?si=Yv3EwOmxxMhMlTBN",
+      "photos": ["MinorityReport1.webp","MinorityReport2.webp"],
+      "reviews": [
+        {
+          "username": "PreCrimeFan",
+          "review": "Una visión fascinante del futuro. El concepto de arrestar antes de cometer el crimen es inquietante pero brillante.",
+          "date": "2025-04-10",
+          "rating": 4.8
+        },
+        {
+          "username": "NeoTech",
+          "review": "La estética futurista y la tecnología mostrada están muy bien pensadas. Spielberg lo hizo otra vez.",
+          "date": "2025-04-11",
+          "rating": 4.5
+        },
+        {
+          "username": "tomy_cruise",
+          "review": "Tom Cruise la rompe. Buena mezcla de acción y sci-fi, aunque a veces se pone un poco lenta. Te amo Tom 😘.",
+          "date": "2025-04-12",
+          "rating": 4.0
+        },
+        {
+          "username": "SciFiCritic",
+          "review": "Aunque plantea una gran idea, la ejecución se queda corta en algunos momentos. Esperaba más profundidad filosófica.",
+          "date": "2025-04-12",
+          "rating": 3.7
+        },
+        {
+          "username": "justAnotherViewer",
+          "review": "Está buena, pero no entendí muy bien lo de los Precogs. Igual me entretuvo.",
+          "date": "2025-04-13",
+          "rating": 3.5
+        },
+        {
+          "username": "future_is_now",
+          "review": "La dirección artística es increíble. Todo parece posible incluso hoy. La historia te atrapa desde el inicio.",
+          "date": "2025-04-14",
+          "rating": 4.6
+        },
+        {
+          "username": "BlueShadows",
+          "review": "Un thriller tecnológico con mensaje social. Spielberg combina acción con una crítica al control del Estado.",
+          "date": "2025-04-14",
+          "rating": 4.3
+        }
+      ]
+      
+    },
+    {
+      "id": 5,
+      "title": "Memento",
+      "release_date": "2000-10-11",
+      "synopsis": "La memoria de Leonard, un investigador de una agencia de seguros, está irreversiblemente dañada debido a un golpe sufrido en la cabeza cuando intentaba evitar el asesinato de su mujer.",
+      "director": "Christopher Nolan",
+      "detail": "Dirigida por Christopher Nolan, esta película de suspenso psicológico presenta una narrativa no lineal que refleja la confusión mental del protagonista.",
+      "review": "Una obra maestra que desafía la percepción del tiempo y la memoria.",
+      "duration": "1h 53m",
+      "genres": ["Suspenso Psicológico", "Misterio"],
+      "cast": [
+        "Guy Pearce",
+        "Carrie-Anne Moss",
+        "Joe Pantoliano",
+        "Mark Boone Junior"
+      ],
+      "poster": "memento.webp",
+      "trailer": "https://www.youtube.com/embed/4CV41hoyS8A?si=LJquuGj0hFPxNUf4",
+      "photos": ["memento1.webp","memento2.webp","memento3.webp","memento4.webp"],
+      "reviews": [
+        {
+          "username": "MindTwister",
+          "review": "Una obra maestra narrativa. El uso de la memoria como mecanismo de trama es simplemente brillante.",
+          "date": "2025-04-10",
+          "rating": 5.0
+        },
+        {
+          "username": "nolanFan",
+          "review": "Christopher Nolan demuestra desde temprano su capacidad para jugar con el tiempo y la mente del espectador.",
+          "date": "2025-04-11",
+          "rating": 4.8
+        },
+        {
+          "username": "invertedLogic",
+          "review": "Al principio cuesta seguir el hilo, pero una vez que entras en el ritmo, no hay vuelta atrás. Es adictiva.",
+          "date": "2025-04-11",
+          "rating": 4.6
+        },
+        {
+          "username": "leni_mem",
+          "review": "Muy buena, aunque confusa si no prestas atención. Hay que verla más de una vez.",
+          "date": "2025-04-12",
+          "rating": 4.2
+        },
+        {
+          "username": "simpleViewer",
+          "review": "Me mareé un poco con el orden de las escenas, pero el final lo arregla todo.",
+          "date": "2025-04-12",
+          "rating": 3.9
+        },
+        {
+          "username": "darkFrame",
+          "review": "El guion está muy bien armado. Oscura, intrigante y con un personaje principal muy bien desarrollado.",
+          "date": "2025-04-13",
+          "rating": 4.7
+        },
+        {
+          "username": "ReverseGuy",
+          "review": "Es como ver un rompecabezas armado al revés. Increíble experiencia cinematográfica.",
+          "date": "2025-04-13",
+          "rating": 4.9
+        },
+        {
+          "username": "lostViewer",
+          "review": "Demasiado enredada. Tuve que buscar explicaciones en internet para entender algo.",
+          "date": "2025-04-14",
+          "rating": 2.5
+        },
+        {
+          "username": "filmCritic88",
+          "review": "La estructura inversa es original, pero siento que depende demasiado de eso. Sin el truco, la historia no destaca.",
+          "date": "2025-04-15",
+          "rating": 3.0
+        },
+        {
+          "username": "mehFilm",
+          "review": "No es para mí. Se toma demasiado en serio y se vuelve pretenciosa por momentos.",
+          "date": "2025-04-15",
+          "rating": 2.8
+        },
+        {
+          "username": "cinefojo",
+          "review": "La idea está buena, pero no logra conectar emocionalmente con el protagonista. Todo se siente muy frío.",
+          "date": "2025-04-16",
+          "rating": 3.2
+        },
+        {
+          "username": "mementoWho",
+          "review": "¿Qué acabo de ver? Me perdí completamente. Hay mejores thrillers psicológicos allá afuera.",
+          "date": "2025-04-16",
+          "rating": 2.0
+        }
+      ]
+      
+    },
+    {
+      "id": 6,
+      "title": "Número 9",
+      "release_date": "2009-09-09",
+      "synopsis": "En un mundo post-apocalíptico, nueve muñecos de trapo luchan por sobrevivir y preservar el futuro de la civilización enfrentándose a máquinas gigantes.",
+      "director": "Shane Acker",
+      "detail": "Una película animada que combina acción y fantasía, basada en el cortometraje homónimo nominado al Óscar.",
+      "review": "Visualmente impactante y emocionalmente resonante.",
+      "duration": "1h 19m",
+      "genres": ["Animación", "Fantasía", "Ciencia Ficción"],
+      "cast": [
+        "Elijah Wood",
+        "John C. Reilly",
+        "Jennifer Connelly",
+        "Christopher Plummer"
+      ],
+      "poster": "Numero9.webp",
+      "trailer": "https://www.youtube.com/embed/BtDqggbHzs8?si=W4HXJSWa79XiY98V",
+      "photos": ["Numero9-1.webp","Numero9-2.webp","Numero9-3.webp"],
+      "reviews": [
+        {
+          "username": "fanAnimado",
+          "review": "Visualmente impresionante. La animación es oscura pero bellísima.",
+          "date": "2025-04-14",
+          "rating": 4.5
+        },
+        {
+          "username": "cineCurioso",
+          "review": "La historia es intrigante, aunque sentí que le faltó desarrollo en algunos personajes.",
+          "date": "2025-04-15",
+          "rating": 3.8
+        },
+        {
+          "username": "robotFan97",
+          "review": "Me encantó la estética postapocalíptica y el concepto de las almas en las muñecas. Muy creativo.",
+          "date": "2025-04-15",
+          "rating": 4.7
+        },
+        {
+          "username": "filmAddict",
+          "review": "Interesante, pero esperaba más profundidad en la trama. Visualmente top.",
+          "date": "2025-04-16",
+          "rating": 3.4
+        },
+        {
+          "username": "noConvence",
+          "review": "Gráficamente bonita, pero vacía. Sentí que la película no supo aprovechar su potencial.",
+          "date": "2025-04-16",
+          "rating": 2.7
+        },
+        {
+          "username": "storyMatters",
+          "review": "El mensaje está bien, pero la ejecución fue floja. El guion no me atrapó.",
+          "date": "2025-04-16",
+          "rating": 2.5
+        },
+        {
+          "username": "plotLost",
+          "review": "Bonita de ver, pero me perdí. Demasiadas cosas sin explicación.",
+          "date": "2025-04-16",
+          "rating": 2.0
+        },
+        {
+          "username": "darkStyle",
+          "review": "Oscura y fascinante. No es para todos, pero a mí me atrapó.",
+          "date": "2025-04-15",
+          "rating": 4.3
+        }
+      ]
+      
+    },
+    {
+      "id": 7,
+      "title": "Déjà Vu",
+      "release_date": "2006-11-22",
+      "synopsis": "El agente Doug Carlin investiga una explosión en un ferry en Nueva Orleans y descubre una tecnología que le permite ver el pasado para prevenir futuros crímenes.",
+      "director": "Tony Scott",
+      "detail": "Un thriller de ciencia ficción que explora la posibilidad de cambiar el pasado para alterar el futuro.",
+      "review": "Una mezcla emocionante de acción y ciencia ficción con giros inesperados.",
+      "duration": "2h 6m",
+      "genres": ["Thriller", "Ciencia Ficción", "Acción"],
+      "cast": [
+        "Denzel Washington",
+        "Paula Patton",
+        "Val Kilmer",
+        "Jim Caviezel"
+      ],
+      "poster": "dejavuPoster.webp",
+      "trailer": "https://www.youtube.com/embed/uxdS8TP37I4?si=KjX99eIRMev_UP0h",
+      "photos": ["dejavu1.webp","dejavu2.webp", "dejavu3.webp"],
+      "reviews": [
+        {
+          "username": "timeTwister",
+          "review": "Una excelente mezcla de acción y ciencia ficción. Denzel lo hace increíble como siempre.",
+          "date": "2025-04-14",
+          "rating": 4.6
+        },
+        {
+          "username": "filmJunkie",
+          "review": "La idea del viaje temporal se ejecuta bastante bien, aunque hay huecos argumentales.",
+          "date": "2025-04-15",
+          "rating": 3.9
+        },
+        {
+          "username": "fanThriller",
+          "review": "¡Intensa! La trama te mantiene atrapado hasta el final.",
+          "date": "2025-04-15",
+          "rating": 4.3
+        },
+        {
+          "username": "confusedWatcher",
+          "review": "La historia me pareció confusa por momentos, aunque al final cerró bien.",
+          "date": "2025-04-16",
+          "rating": 3.2
+        },
+        {
+          "username": "detallesImportan",
+          "review": "Buena premisa, pero la ciencia detrás del viaje en el tiempo no convence del todo.",
+          "date": "2025-04-16",
+          "rating": 2.8
+        },
+        {
+          "username": "realistaFan",
+          "review": "Entretenida, pero poco realista. Algunas escenas fueron demasiado forzadas.",
+          "date": "2025-04-16",
+          "rating": 2.5
+        },
+        {
+          "username": "denzelFan",
+          "review": "Solo la vi por Denzel y no me decepcionó. Él sostiene toda la película.",
+          "date": "2025-04-15",
+          "rating": 4.1
+        },
+        {
+          "username": "notMyThing",
+          "review": "No conecté con la historia. El ritmo fue irregular y predecible en partes.",
+          "date": "2025-04-16",
+          "rating": 2.3
+        }
+      ]
+      
+    },
+    {
+      "id": 8,
+      "title": "Source Code",
+      "release_date": "2011-03-30",
+      "synopsis": "El capitán Colter Stevens se despierta en el cuerpo de otra persona y descubre que forma parte de un experimento para encontrar al responsable de un atentado en un tren.",
+      "director": "Duncan Jones",
+      "detail": "Una película de ciencia ficción que combina acción y misterio, explorando conceptos de identidad y realidad.",
+      "review": "Una historia envolvente que te hace cuestionar la realidad.",
+      "duration": "1h 33m",
+      "genres": ["Ciencia Ficción", "Thriller", "Misterio"],
+      "cast": [
+        "Jake Gyllenhaal",
+        "Michelle Monaghan",
+        "Vera Farmiga",
+        "Jeffrey Wright"
+      ],
+      "poster": "sourcecode.webp",
+      "trailer": "https://www.youtube.com/embed/i71eXpmkZBY?si=T9fqA-S6C3lR3gzH",
+      "photos": ["sourcecode1.webp","sourcecode2.webp","sourcecode3.webp"],
+      "reviews": [
+        {
+          "username": "timeTwister",
+          "review": "Una excelente mezcla de acción y ciencia ficción. Denzel lo hace increíble como siempre.",
+          "date": "2025-04-14",
+          "rating": 4.6
+        },
+        {
+          "username": "filmJunkie",
+          "review": "La idea del viaje temporal se ejecuta bastante bien, aunque hay huecos argumentales.",
+          "date": "2025-04-15",
+          "rating": 3.9
+        },
+        {
+          "username": "fanThriller",
+          "review": "¡Intensa! La trama te mantiene atrapado hasta el final.",
+          "date": "2025-04-15",
+          "rating": 4.3
+        },
+        {
+          "username": "confusedWatcher",
+          "review": "La historia me pareció confusa por momentos, aunque al final cerró bien.",
+          "date": "2025-04-16",
+          "rating": 3.2
+        },
+        {
+          "username": "detallesImportan",
+          "review": "Buena premisa, pero la ciencia detrás del viaje en el tiempo no convence del todo.",
+          "date": "2025-04-16",
+          "rating": 2.8
+        },
+        {
+          "username": "realistaFan",
+          "review": "Entretenida, pero poco realista. Algunas escenas fueron demasiado forzadas.",
+          "date": "2025-04-16",
+          "rating": 2.5
+        },
+        {
+          "username": "denzelFan",
+          "review": "Solo la vi por Denzel y no me decepcionó. Él sostiene toda la película.",
+          "date": "2025-04-15",
+          "rating": 4.1
+        },
+        {
+          "username": "notMyThing",
+          "review": "No conecté con la historia. El ritmo fue irregular y predecible en partes.",
+          "date": "2025-04-16",
+          "rating": 2.3
+        }
+      ]
+      
+    },
+    {
+      "id": 9,
+      "title": "Al borde del abismo",
+      "release_date": "2012-01-13",
+      "synopsis": "Un ex policía amenaza con saltar desde la cornisa de un hotel en Manhattan, mientras que un equipo de negociadores intenta salvarlo, sin saber que detrás hay un elaborado plan.",
+      "director": "Asger Leth",
+      "detail": "Un thriller de acción que combina suspenso y giros inesperados, explorando los límites de la desesperación y la justicia.",
+      "review": "Una película intensa que mantiene al espectador en vilo hasta el final.",
+      "duration": "1h 42m",
+      "genres": ["Suspenso", "Acción", "Crimen"],
+      "cast": [
+        "Sam Worthington",
+        "Elizabeth Banks",
+        "Jamie Bell",
+        "Anthony Mackie"
+      ],
+      "poster": "manonaedge.webp",
+      "trailer": "https://www.youtube.com/embed/IXiK3QhXwDY?si=E8f9TcYP0TFU8kWS",
+      "photos": ["manonaedge1.webp","manonaedge2.webp","manonaedge3.webp"],
+      "reviews": [
+        {
+          "username": "cinephile123",
+          "review": "Una película que te mantiene al borde del asiento. La actuación de la protagonista es impresionante.",
+          "date": "2025-04-17",
+          "rating": 4.8
+        },
+        {
+          "username": "thrillSeeker",
+          "review": "La tensión en la película está muy bien lograda, pero esperaba más profundidad en la trama.",
+          "date": "2025-04-17",
+          "rating": 4.0
+        },
+        {
+          "username": "movieBuff",
+          "review": "Aunque la trama es interesante, algunos giros se sienten predecibles. Aún así, vale la pena ver.",
+          "date": "2025-04-18",
+          "rating": 3.7
+        },
+        {
+          "username": "cineAdicto",
+          "review": "El final fue demasiado abrupto y no cerró bien las historias de los personajes.",
+          "date": "2025-04-18",
+          "rating": 2.9
+        },
+        {
+          "username": "filmCritic",
+          "review": "Las escenas de acción son geniales, pero el guion se queda corto. Pudo haber sido mucho mejor.",
+          "date": "2025-04-19",
+          "rating": 3.2
+        },
+        {
+          "username": "suspenseLover",
+          "review": "Me encantó la atmósfera de suspense. Muy bien dirigida, pero un poco floja en la parte final.",
+          "date": "2025-04-19",
+          "rating": 4.0
+        },
+        {
+          "username": "notImpressed",
+          "review": "Me decepcionó mucho. La historia no me convenció y los personajes eran bastante planos.",
+          "date": "2025-04-19",
+          "rating": 2.1
+        },
+        {
+          "username": "actionFanatic",
+          "review": "Es una película de acción decente, pero no es nada del otro mundo. Hay mejores opciones en este género.",
+          "date": "2025-04-19",
+          "rating": 2.8
+        }
+      ]
+      
+    },
+    {
+      "id": 10,
+      "title": "Paycheck",
+      "release_date": "2003-12-25",
+      "synopsis": "Un ingeniero especializado en proyectos secretos acepta que le borren la memoria tras cada trabajo, pero tras su último encargo, descubre que ha sido traicionado y debe reconstruir su pasado.",
+      "director": "John Woo",
+      "detail": "Basada en un relato de Philip K. Dick, esta película mezcla acción y ciencia ficción en una carrera contrarreloj para descubrir la verdad.",
+      "review": "Un thriller tecnológico con giros intrigantes y acción intensa.",
+      "duration": "1h 59m",
+      "genres": ["Acción", "Ciencia Ficción", "Suspenso"],
+      "cast": [
+        "Ben Affleck",
+        "Uma Thurman",
+        "Aaron Eckhart",
+        "Paul Giamatti"
+      ],
+      "poster": "paycheck.webp",
+      "trailer": "https://www.youtube.com/embed/rkE5I9nFqrI?si=BsQDtJb4bgbaeYhd",
+      "photos": ["paycheck1.webp","paycheck2.webp","paycheck3.webp"],
+      "reviews": [
+        {
+          "username": "actionLover01",
+          "review": "Una película entretenida con una trama intrigante. La idea de borrar la memoria y los giros de la historia realmente me mantuvieron enganchado.",
+          "date": "2025-04-17",
+          "rating": 4.2
+        },
+        {
+          "username": "filmFanatic",
+          "review": "Aunque la idea es interesante, la ejecución no fue tan impresionante. Algunas escenas de acción me parecieron un poco forzadas.",
+          "date": "2025-04-17",
+          "rating": 4.0
+        },
+        {
+          "username": "thrillerAddict",
+          "review": "Me gustaron los giros inesperados, pero el desarrollo de los personajes podría haber sido mejor. Aún así, una película decente.",
+          "date": "2025-04-18",
+          "rating": 3.7
+        },
+        {
+          "username": "cinemaLover42",
+          "review": "La trama es interesante, pero la película no logra generar la tensión que prometía. La película me dejó con ganas de más.",
+          "date": "2025-04-18",
+          "rating": 3.0
+        },
+        {
+          "username": "movieBuff21",
+          "review": "Una película de acción mediocre. Aunque la premisa era buena, la ejecución no estuvo a la altura. No es una de mis favoritas.",
+          "date": "2025-04-19",
+          "rating": 2.8
+        },
+        {
+          "username": "cinephile_23",
+          "review": "Muy entretenida, pero a veces se siente como una película de acción genérica. La idea de la memoria borrada es genial, pero podría haber sido más profunda.",
+          "date": "2025-04-19",
+          "rating": 3.9
+        },
+        {
+          "username": "notImpressed123",
+          "review": "Es una película olvidable. No me impresionó en absoluto y los giros no fueron tan sorprendentes como esperaba.",
+          "date": "2025-04-19",
+          "rating": 2.8
+        },
+        {
+          "username": "movieCriticX",
+          "review": "La trama parece prometedora, pero termina siendo predecible. Una decepción considerando el elenco y la premisa.",
+          "date": "2025-04-19",
+          "rating": 2.6
+        }
+      ]
+      
+    },
+    {
+      "id": 11,
+      "title": "Frequency",
+      "release_date": "2000-04-28",
+      "synopsis": "Un fenómeno meteorológico permite a un hijo comunicarse con su padre fallecido 30 años antes, lo que desencadena una serie de eventos que alteran el pasado y el presente.",
+      "director": "Gregory Hoblit",
+      "detail": "Una emotiva historia que combina ciencia ficción y drama familiar, explorando las consecuencias de cambiar el pasado.",
+      "review": "Una narrativa conmovedora que entrelaza el tiempo y las relaciones familiares.",
+      "duration": "1h 58m",
+      "genres": ["Ciencia Ficción", "Drama", "Suspenso"],
+      "cast": [
+        "Dennis Quaid",
+        "Jim Caviezel",
+        "Elizabeth Mitchell",
+        "Andre Braugher"
+      ],
+      "poster": "Frequency.webp",
+      "trailer": "https://www.youtube.com/embed/jdACpDDpIUs?si=luzF_GXo_Ymw-Ijj",
+      "photos": ["Frequency1.webp","Frequency2.webp","Frequency3.webp"],
+      "reviews": [
+        {
+          "username": "timeTravelFan",
+          "review": "Una película fascinante que mezcla ciencia ficción y drama de forma impecable. Me encantó cómo la comunicación a través de la radio impacta el destino de los personajes. ¡Totalmente recomendable!",
+          "date": "2025-04-17",
+          "rating": 4.5
+        },
+        {
+          "username": "movieLover101",
+          "review": "La premisa es increíble, y los giros en la trama me sorprendieron. Aunque algunos momentos se sienten un poco forzados, la película me dejó pensando mucho tiempo después.",
+          "date": "2025-04-18",
+          "rating": 4.0
+        },
+        {
+          "username": "scienceFreak22",
+          "review": "Me encantó la idea de la película, pero la ejecución no fue perfecta. Algunos aspectos de la trama fueron demasiado previsibles. Aún así, es una película divertida de ver.",
+          "date": "2025-04-18",
+          "rating": 3.7
+        },
+        {
+          "username": "filmGeek97",
+          "review": "La película tiene una trama interesante, pero me parece que no aprovechó todo su potencial. El concepto de viajar en el tiempo a través de la radio podría haberse explorado más a fondo.",
+          "date": "2025-04-19",
+          "rating": 3.2
+        },
+        {
+          "username": "dramaFan123",
+          "review": "Es una mezcla agradable de drama familiar y ciencia ficción, pero algunos de los giros de la historia se sintieron un poco forzados. Aun así, me mantuvo entretenido.",
+          "date": "2025-04-19",
+          "rating": 3.8
+        },
+        {
+          "username": "nostalgiaLover",
+          "review": "Me encantó la dinámica entre padre e hijo, y la forma en que la película mezcla el drama con elementos de ciencia ficción. Es una historia que toca el corazón.",
+          "date": "2025-04-19",
+          "rating": 4.3
+        },
+        {
+          "username": "cinemaCritic",
+          "review": "La película tiene un buen inicio, pero a medida que avanza pierde algo de ritmo. Los personajes están bien, pero la trama se siente como si pudiera haber sido más profunda.",
+          "date": "2025-04-19",
+          "rating": 3.0
+        },
+        {
+          "username": "notImpressed_2025",
+          "review": "Es una película bastante predecible en muchos aspectos, y aunque tiene un concepto interesante, no logró mantener mi atención por mucho tiempo. Esperaba más.",
+          "date": "2025-04-19",
+          "rating": 2.5
+        }
+      ]
+      
+    },
+    {
+      "id": 12,
+      "title": "Cypher",
+      "release_date": "2002-10-01",
+      "synopsis": "Un contable aburrido se convierte en espía corporativo, pero pronto se ve atrapado en una red de engaños y manipulación que lo hace cuestionar su identidad.",
+      "director": "Vincenzo Natali",
+      "detail": "Un thriller de ciencia ficción que explora la paranoia y la pérdida de identidad en un mundo de espionaje corporativo.",
+      "review": "Una película intrigante que mantiene al espectador cuestionando la realidad.",
+      "duration": "1h 35m",
+      "genres": ["Ciencia Ficción", "Suspenso", "Misterio"],
+      "cast": [
+        "Jeremy Northam",
+        "Lucy Liu",
+        "Nigel Bennett",
+        "Timothy Webber"
+      ],
+      "poster": "cypher.webp",
+      "trailer": "https://www.youtube.com/embed/fmkk9icfkIA?si=vQg1nn7YDOsH8a1A",
+      "photos": ["cypher1.webp","cypher2.webp","cypher3.webp"],
+      "reviews": [
+        {
+          "username": "mindBenderX",
+          "review": "Una película que desafía la mente. La trama de espionaje y el giro final me dejaron boquiabierto. Me encantó cómo mantiene la tensión todo el tiempo. Definitivamente una joya subestimada.",
+          "date": "2025-04-17",
+          "rating": 4.7
+        },
+        {
+          "username": "thrillerFanatic",
+          "review": "Me gustó mucho la atmósfera de paranoia y los giros de la trama. Aunque algunos momentos se sintieron lentos, el final valió la pena. Una película de culto para los fanáticos de los thrillers psicológicos.",
+          "date": "2025-04-18",
+          "rating": 4.2
+        },
+        {
+          "username": "spyMovieLover",
+          "review": "Aunque el concepto de espionaje corporativo es interesante, me parece que la película no logra desarrollar completamente su potencial. Los giros de la trama fueron impredecibles, pero en algunos puntos la historia se siente desordenada.",
+          "date": "2025-04-18",
+          "rating": 3.6
+        },
+        {
+          "username": "filmEnthusiast",
+          "review": "Es una película intrigante con un buen concepto, pero le faltó un poco más de desarrollo de los personajes y un ritmo más consistente. A pesar de eso, el giro final fue sorprendente.",
+          "date": "2025-04-19",
+          "rating": 3.8
+        },
+        {
+          "username": "suspenseSeeker",
+          "review": "Me sentí muy confundido durante gran parte de la película. La trama no es fácil de seguir, y aunque la idea es interesante, la ejecución dejó que deseara más claridad en algunos aspectos.",
+          "date": "2025-04-19",
+          "rating": 2.9
+        },
+        {
+          "username": "techNoirFan",
+          "review": "Si te gustan los thrillers tecnológicos y de conspiraciones, esta película te atrapará. Tiene una atmósfera única, aunque algunos de los giros y detalles pueden ser difíciles de digerir.",
+          "date": "2025-04-19",
+          "rating": 4.1
+        },
+        {
+          "username": "actionAdict",
+          "review": "Es una película interesante en cuanto a la trama, pero no tiene mucha acción ni momentos emocionantes. Aunque el suspenso está bien manejado, me hubiera gustado más dinamismo.",
+          "date": "2025-04-19",
+          "rating": 3.0
+        },
+        {
+          "username": "confusedViewer",
+          "review": "La película intenta ser más compleja de lo que realmente es. Si bien tiene un giro interesante, me costó mucho entender lo que estaba pasando. No fue tan satisfactoria como esperaba.",
+          "date": "2025-04-19",
+          "rating": 2.3
+        }
+      ]
+      
+    }
+  ]
+}  
 
-  

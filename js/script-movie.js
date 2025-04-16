@@ -3,22 +3,12 @@ import { score } from "./score.js";
 
 const IdMovie = new URLSearchParams(window.location.search).get("id"); //Get the id from the URL
 const Poster = document.getElementById("Poster-movie"); //Get the movie image element
-const TitleMovie = document.getElementById("Title-movie"); //Get the movie title element
-const DateMovie = document.getElementById("Date-movie"); //Get the movie release date element
-const RatingMovie = document.getElementById("Rating-movie"); //Get the movie score element
-const DetailsMovie = document.getElementById("Details-movie"); //Get the movie details element
-const SynopsisMovie = document.getElementById("Synopsis-movie"); //Get the movie synopsis element
 const GenresMovie = document.getElementById("Genres-movie"); //Get the movie genres element
-const DirectorMovie = document.getElementById("Director-movie"); //Get the movie director element
-const DurationMovie = document.getElementById("Duration-movie"); //Get the movie duration element
-const CastMovie = document.getElementById("Cast-movie"); //Get the movie cast element
 const Photographs = document.getElementById("Photographs-movie"); //Get the movie photographs element
 const ReviewsSection = document.getElementById("Reviews"); //Get the reviews section element
-const TrailerMovie = document.getElementById("Trailer-movie"); //Get the movie trailer element
 const rating = document.getElementById("rating"); //Get the rating element
 const ReviewForm = document.getElementById("ReviewForm"); //Get the review form element
 const ReviewBTN = document.getElementById("formBtn"); //Get the review button element
-const stars = document.getElementById("stars"); //Get the stars element
 //Check if the id is valid
 if (IdMovie == null || isNaN(IdMovie)) {
   window.location.href = "./404.html";
@@ -34,10 +24,11 @@ const ViewData = async () => {
     document.title = "CineFan | " + movie.title; //Page title
     Poster.src = "images/" + movie.poster; //Image path
     Poster.alt = movie.title; //Image alt
-    TitleMovie.innerText = movie.title; //Movie title
+    document.getElementById("Title-movie").innerText = movie.title; //Movie title
     document.getElementById("breadcrumb-page").innerText = movie.title; //Breadcrumb page title
-    DateMovie.innerHTML = "";
-    DateMovie.innerHTML = new Date(movie.release_date).toLocaleDateString(); //Movie release date
+    document.getElementById("Date-movie").innerHTML = new Date(
+      movie.release_date
+    ).toLocaleDateString(); //Movie release date
     GenresMovie.innerHTML = "";
     movie.genres.map((genre) => {
       const genreElement = document.createElement("span");
@@ -45,16 +36,18 @@ const ViewData = async () => {
       genreElement.innerText = genre;
       GenresMovie.appendChild(genreElement);
     }); //Movie genres
-    DirectorMovie.innerHTML = movie.director; //Movie director
-    DurationMovie.innerHTML = movie.duration; //Movie duration
-    CastMovie.innerHTML = `<p>${movie.cast.join(", ")}</p>`; //Movie cast
-    TrailerMovie.src = movie.trailer; //Movie trailer
-    RatingMovie.innerHTML =
+    document.getElementById("Director-movie").innerHTML = movie.director; //Movie director
+    document.getElementById("Duration-movie").innerHTML = movie.duration; //Movie duration
+    document.getElementById("Cast-movie").innerHTML = `<p>${movie.cast.join(
+      ", "
+    )}</p>`; //Movie cast
+    document.getElementById("Trailer-movie").src = movie.trailer; //Movie trailer
+    document.getElementById("Rating-movie").innerHTML =
       "<b>Calificaci&oacute;n: </b> " +
       score(movie.score) +
       `(${movie.score == null ? `Sin rese&ntilde;as` : movie.score})`; //Movie score
-    DetailsMovie.innerHTML = movie.detail;
-    SynopsisMovie.innerText = movie.synopsis; //Movie synopsis
+    document.getElementById("Details-movie").innerHTML = movie.detail;
+    document.getElementById("Synopsis-movie").innerText = movie.synopsis; //Movie synopsis
     //Print all reviews
     const reviewsSessionS = JSON.parse(sessionStorage.getItem("reviews")) || [];
     const filteredReviews = reviewsSessionS.filter(
@@ -139,7 +132,7 @@ rating.addEventListener("keyup", (e) => {
   renderScore(e.target.value);
 });
 const renderScore = (e) => {
-  if (e >= 0 && e <= 5) stars.innerHTML = score(e);
+  if (e >= 0 && e <= 5) document.getElementById("stars").innerHTML = score(e);
 };
 // Save the review
 ReviewForm.addEventListener("submit", async (e) => {
