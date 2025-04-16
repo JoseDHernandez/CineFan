@@ -22,7 +22,12 @@ export const getMovies = async () => {
             )
           : null;
     });
-    return data.movies;
+    movies.sort((a, b) => {
+      const dateA = new Date(a.release_date);
+      const dateB = new Date(b.release_date);
+      return dateB - dateA; // Sort by release date (newest first)
+    });
+    return movies;
   } catch (error) {
     console.error("Error fetching movies:", error);
     return null;
