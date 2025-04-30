@@ -43,7 +43,6 @@ Error page
 
 2.  Open `index.html` directly in your browser or view a live demo in https://josedhernandez.github.io/CineFan/.
 
-> ⚠️ **Note**: Due to browser security policies (CORS), some functionality like fetching `db.json` might not work when opened from a `file://` path. To avoid this, you can run a local server, for example:
 
 ## Author
 
