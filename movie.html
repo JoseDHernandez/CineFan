@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html data-theme="dark" lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,24 +12,49 @@
       rel="stylesheet"
     />
     <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="js/components/theme.js" type="module"></script>
     <title>Película</title>
   </head>
 
-  <body class="bg-light">
+  <body>
     <!-- Header -->
-    <header class="bg-white shadow-sm mb-4">
+    <header class="shadow mb-4">
       <div
         class="container d-flex align-items-center justify-content-between py-3"
       >
         <div class="d-flex align-items-center gap-3">
-          <img src="images/logo.svg" alt="Logo" width="60" height="60" />
-          <h1 class="h4 mb-0 text-primary">CineFan</h1>
+          <img
+            src="images/logo.svg"
+            alt="Logo"
+            width="60"
+            height="60"
+            decoding="async"
+            loading="lazy"
+          />
+          <h1 class="h4 mb-0">CineFan</h1>
         </div>
         <nav>
-          <a href="index.html" class="btn btn-outline-primary me-2">Inicio</a>
-          <a href="index.html#Grid-movies" class="btn btn-outline-secondary"
+          <a href="index.html" class="btn me-2 button">Inicio</a>
+          <a href="index.html#Grid-movies" class="btn secondary-button"
             >Películas</a
           >
+          <div class="theme-selector btn">
+            <input type="radio" name="theme" value="dark" id="dark-theme" />
+            <label for="dark-theme"><i class="bi bi-moon-fill"></i> Dark</label>
+
+            <input type="radio" name="theme" value="light" id="light-theme" />
+            <label for="light-theme"
+              ><i class="bi bi-brightness-high-fill"></i> Light</label
+            >
+          </div>
         </nav>
       </div>
     </header>
@@ -38,7 +63,7 @@
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
           <li
             class="breadcrumb-item active"
             aria-current="page"
@@ -51,26 +76,27 @@
       <!-- Hero Section -->
       <section class="my-5">
         <div
-          class="row align-items-center p-4 bg-white rounded shadow flex-column flex-md-row"
+          class="row align-items-center p-4 bg-color-800 rounded shadow flex-column flex-md-row"
         >
-          <div class="col-md-4 text-center mb-3 mb-md-0">
+          <div class="col-lg-4 text-center mb-3 mb-lg-0">
             <img
               src="images/posterPlaceholder.svg"
               alt="P&oacute;ster"
-              class="img-fluid rounded shadow-sm border border-2"
+              class="img-fluid rounded shadow-sm"
               loading="lazy"
+              decoding="async"
               id="Poster-movie"
               width="360px"
               height="500px"
             />
           </div>
           <div class="col-md-8">
-            <h2 class="mb-2 fw-bold text-primary" id="Title-movie">
+            <h2 class="mb-2 fw-bold" id="Title-movie">
               <span class="placeholder col-12 bg-primary"></span>
             </h2>
 
             <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
-              <span class="text-secondary">
+              <span>
                 <i class="bi bi-calendar3"></i>
                 <span id="Date-movie">00/00/0000</span>
               </span>
@@ -87,7 +113,7 @@
             </div>
 
             <p class="mb-3">
-              <i class="bi bi-person-video2 text-dark"></i>
+              <i class="bi bi-person-video2"></i>
               <strong>Direcci&oacute;n:</strong>
               <span id="Director-movie"
                 ><span class="placeholder col-3"></span
@@ -95,7 +121,7 @@
             </p>
 
             <div class="mb-3">
-              <i class="bi bi-tags text-dark"></i>
+              <i class="bi bi-tags"></i>
               <strong>G&eacute;neros:</strong>
               <span id="Genres-movie" class="ms-1">
                 <span class="placeholder col-1"></span>
@@ -113,49 +139,84 @@
               ><span class="placeholder col-12"></span>
             </p>
 
-            <h5 class="mt-4 text-dark">Reparto</h5>
+            <h5 class="mt-4">Reparto</h5>
             <p class="mb-0" id="Cast-movie">
               <span class="placeholder col-12"></span>
             </p>
             <br />
-            <a class="btn btn-primary" href="#Trailer-movie"
+            <a class="btn secondary-button" href="#Trailer-movie"
               ><i class="bi bi-fast-forward"></i> Ver trailer</a
             >
           </div>
         </div>
       </section>
-      <!-- Fotos -->
-      <section class="mb-5">
-        <h2 class="mb-3">📷 Fotos</h2>
+      <div class="row">
+        <!-- Tráiler -->
+        <section class="mb-5 col-lg-8">
+          <h2 class="mb-3">Tr&aacute;iler</h2>
+          <span class="d-none d-lg-block">&nbsp;<br />&nbsp;</span>
+          <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden">
+            <iframe
+              id="Trailer-movie"
+              src="https://www.youtube.com/embed/VIDEO_ID"
+              title="YouTube video player"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <span class="d-none d-lg-block">&nbsp;<br />&nbsp;</span>
+        </section>
+        <!-- Fotos -->
+        <section class="mb-5 col-lg-3">
+          <h2 class="mb-3">Fotos</h2>
+          <div class="gallery">
+            <div id="scroll-up" class="gallery-button shadow d-none d-lg-block">
+              <i class="bi bi-chevron-up"></i>
+            </div>
+            <div id="Photographs-movie">
+              <img
+                src="images/imagePlaceholder.svg"
+                loading="lazy"
+                decoding="async"
+                class="img-fluid"
+              />
+              <img
+                src="images/imagePlaceholder.svg"
+                loading="lazy"
+                decoding="async"
+                class="img-fluid"
+              />
+              <img
+                src="images/imagePlaceholder.svg"
+                loading="lazy"
+                decoding="async"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              id="scroll-down"
+              class="gallery-button shadow d-none d-lg-block"
+            >
+              <i class="bi bi-chevron-down"></i>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Similares-->
+      <section>
+        <h2 class="mb-3">Recomendaciones</h2>
         <div
-          id="Photographs-movie"
-          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
-        >
-          <img src="images/imagePlaceholder.svg" />
-          <img src="images/imagePlaceholder.svg" />
-          <img src="images/imagePlaceholder.svg" />
-        </div>
+          id="recommendations"
+          class="mb-4 d-flex flex-wrap justify-content-center"
+          style="gap: 20px; min-height: 40vh"
+        ></div>
       </section>
-      <!-- Tráiler -->
-      <section class="mb-5">
-        <h2 class="mb-3">🎬 Tráiler</h2>
-        <div class="ratio ratio-16x9 shadow-sm rounded overflow-hidden">
-          <iframe
-            id="Trailer-movie"
-            src="https://www.youtube.com/embed/VIDEO_ID"
-            title="YouTube video player"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
-
       <!-- Reseñas -->
       <section>
-        <h2 class="mb-3">🗣️ Rese&ntilde;as de los usuarios</h2>
+        <h2 class="mb-3">Rese&ntilde;as de los usuarios</h2>
         <div id="Reviews" class="mb-4">
-          <div class="card my-3 shadow-sm">
+          <div class="card my-3 shadow-sm review">
             <div class="card-body">
-              <p class="mb-1 d-flex justify-content-between">
+              <p>
                 <span class="placeholder col-1 bg-primary"></span>
                 <span class="placeholder col-1 bg-secondary"></span>
               </p>
@@ -165,9 +226,21 @@
               </div>
             </div>
           </div>
-          <div class="card my-3 shadow-sm">
+          <div class="card my-3 shadow-sm review-user">
             <div class="card-body">
-              <p class="mb-1 d-flex justify-content-between">
+              <p>
+                <span class="placeholder col-1 bg-primary"></span>
+                <span class="placeholder col-1 bg-secondary"></span>
+              </p>
+              <p class="mb-1"><span class="placeholder col-7"></span></p>
+              <div class="text-warning">
+                <span class="placeholder col-1"></span>
+              </div>
+            </div>
+          </div>
+          <div class="card my-3 shadow-sm review">
+            <div class="card-body">
+              <p>
                 <span class="placeholder col-1 bg-primary"></span>
                 <span class="placeholder col-1 bg-secondary"></span>
               </p>
@@ -184,7 +257,9 @@
           <p id="errors" class="text-danger"></p>
 
           <div class="mb-3">
-            <label for="review" class="form-label">Escribe tu reseña:</label>
+            <label for="review" class="form-label"
+              >Escribe tu rese&ntilde;ta:</label
+            >
             <textarea
               class="form-control bg-light border-secondary-subtle shadow-sm"
               id="review"
@@ -196,7 +271,7 @@
 
           <div class="row align-items-end">
             <div class="col-md-6 mb-3">
-              <label for="rating" class="form-label">Calificación</label>
+              <label for="rating" class="form-label">Calificaci&oacute;n</label>
               <span class="col" id="stars"> </span> <br />
               <small class="text-body-secondary"><i>*0.0 a 5.0</i></small>
               <input
@@ -226,7 +301,7 @@
             </div>
           </div>
 
-          <button type="submit" class="btn btn-primary mt-3 w-100" id="formBtn">
+          <button type="submit" class="btn button mt-3 w-100" id="formBtn">
             Enviar
           </button>
         </form>
@@ -298,5 +373,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/script-movie.js" type="module"></script>
+    <script src="js/components/formReview.js" type="module"></script>
   </body>
 </html>

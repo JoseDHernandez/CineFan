@@ -1,0 +1,43 @@
+@mixin card-style($class) {
+  .#{$class} {
+    padding: 1rem !important;
+    border-radius: 10px;
+    p {
+      margin: 0px;
+    }
+    .user {
+      display: flex;
+      align-items: center;
+      .bi-person-fill {
+        font-size: 30px;
+      }
+      strong {
+        display: block;
+        padding-left: 10px;
+      }
+    }
+    .score,
+    .date,
+    .note {
+      font-size: 14px;
+    }
+    .body,
+    .score {
+      padding-left: 30px;
+    }
+    .body {
+      padding: 10px 0px 10px 0px;
+    }
+    .note {
+      float: right;
+    }
+  }
+}
+
+@include card-style("review");
+@include card-style("review-user");
+#Reviews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

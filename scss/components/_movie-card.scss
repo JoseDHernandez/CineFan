@@ -1,0 +1,73 @@
+@use "variables.scss";
+
+$card-types: (
+  "movie-card": 220px,
+  "movie-card-mini": 180px,
+);
+$card-font-sizes: (
+  "movie-card": 18px,
+  "movie-card-mini": 10px,
+);
+$border-radius-card: 5px;
+
+@each $class, $width in $card-types {
+  $font-size: map-get($card-font-sizes, $class);
+  .#{$class} {
+    display: block;
+    border-radius: $border-radius-card;
+    overflow: hidden;
+    width: $width;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    position: relative;
+
+    &:hover {
+      scale: 1.02;
+
+      .#{$class}__img {
+        filter: saturate(1.5);
+      }
+
+      .#{$class}__year {
+        opacity: 0.5;
+        z-index: 1;
+      }
+    }
+
+    &__img {
+      width: 100%;
+      aspect-ratio: 2/3;
+      object-fit: cover;
+      display: block;
+      height: auto;
+      overflow: hidden;
+    }
+
+    &__body {
+      padding: 5px 10px;
+    }
+
+    &__title {
+      //font-size: 18px;
+      text-align: center;
+      margin: 0;
+    }
+
+    &__score {
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      margin: 0 !important;
+    }
+
+    &__year {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 2px 5px;
+      font-weight: 500;
+      font-size: 14px;
+      border-radius: $border-radius-card;
+    }
+  }
+}

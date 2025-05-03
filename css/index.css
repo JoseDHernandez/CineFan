@@ -1,0 +1,431 @@
+.movie-card {
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 220px;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  position: relative;
+}
+.movie-card:hover {
+  scale: 1.02;
+}
+.movie-card:hover .movie-card__img {
+  filter: saturate(1.5);
+}
+.movie-card:hover .movie-card__year {
+  opacity: 0.5;
+  z-index: 1;
+}
+.movie-card__img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+.movie-card__body {
+  padding: 5px 10px;
+}
+.movie-card__title {
+  text-align: center;
+  margin: 0;
+}
+.movie-card__score {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 !important;
+}
+.movie-card__year {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 2px 5px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.movie-card-mini {
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 180px;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  position: relative;
+}
+.movie-card-mini:hover {
+  scale: 1.02;
+}
+.movie-card-mini:hover .movie-card-mini__img {
+  filter: saturate(1.5);
+}
+.movie-card-mini:hover .movie-card-mini__year {
+  opacity: 0.5;
+  z-index: 1;
+}
+.movie-card-mini__img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+.movie-card-mini__body {
+  padding: 5px 10px;
+}
+.movie-card-mini__title {
+  text-align: center;
+  margin: 0;
+}
+.movie-card-mini__score {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 !important;
+}
+.movie-card-mini__year {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 2px 5px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.theme-selector label {
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.theme-selector label:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+.theme-selector input[type=radio] {
+  display: none;
+}
+.theme-selector input[type=radio]:checked + label {
+  display: none;
+}
+
+html[data-theme=light] .theme-selector input[type=radio]:not(:checked) + label {
+  color: #cfcfcf;
+  background-color: #050505;
+}
+
+html[data-theme=dark] .theme-selector input[type=radio]:not(:checked) + label {
+  color: #303030;
+  background-color: #f9f9f9;
+}
+
+.review {
+  padding: 1rem !important;
+  border-radius: 10px;
+}
+.review p {
+  margin: 0px;
+}
+.review .user {
+  display: flex;
+  align-items: center;
+}
+.review .user .bi-person-fill {
+  font-size: 30px;
+}
+.review .user strong {
+  display: block;
+  padding-left: 10px;
+}
+.review .score,
+.review .date,
+.review .note {
+  font-size: 14px;
+}
+.review .body,
+.review .score {
+  padding-left: 30px;
+}
+.review .body {
+  padding: 10px 0px 10px 0px;
+}
+.review .note {
+  float: right;
+}
+
+.review-user {
+  padding: 1rem !important;
+  border-radius: 10px;
+}
+.review-user p {
+  margin: 0px;
+}
+.review-user .user {
+  display: flex;
+  align-items: center;
+}
+.review-user .user .bi-person-fill {
+  font-size: 30px;
+}
+.review-user .user strong {
+  display: block;
+  padding-left: 10px;
+}
+.review-user .score,
+.review-user .date,
+.review-user .note {
+  font-size: 14px;
+}
+.review-user .body,
+.review-user .score {
+  padding-left: 30px;
+}
+.review-user .body {
+  padding: 10px 0px 10px 0px;
+}
+.review-user .note {
+  float: right;
+}
+
+#Reviews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gallery .gallery-button {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+.gallery :first-child {
+  margin-bottom: 20px;
+}
+.gallery :last-child {
+  margin-top: 20px;
+}
+.gallery #Photographs-movie {
+  gap: 20px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.gallery #Photographs-movie::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .gallery #Photographs-movie {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .gallery #Photographs-movie :first-child,
+  .gallery #Photographs-movie :last-child {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .gallery #Photographs-movie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery #Photographs-movie {
+    grid-template-columns: 1fr;
+  }
+}
+
+html[data-theme=light] body {
+  background-color: #f9f9f9;
+  color: #303030;
+}
+html[data-theme=light] h2 {
+  color: #235499;
+}
+html[data-theme=light] .bg-color-800 {
+  background-color: #f9f9f9;
+}
+html[data-theme=light] .button {
+  background-color: #235499 !important;
+  color: white;
+}
+html[data-theme=light] .button:hover {
+  background-color: rgb(35, 64.3333333333, 153) !important;
+}
+html[data-theme=light] .secondary-button {
+  background-color: #4fc9d6 !important;
+  color: white;
+}
+html[data-theme=light] .secondary-button:hover {
+  background-color: rgb(79, 178.5, 214) !important;
+}
+html[data-theme=light] .movie-card,
+html[data-theme=light] .movie-card-mini {
+  background-color: #f9f9f9;
+}
+html[data-theme=light] .movie-card__title,
+html[data-theme=light] .movie-card-mini__title {
+  color: #303030;
+}
+html[data-theme=light] .movie-card__year,
+html[data-theme=light] .movie-card-mini__year {
+  background-color: #4fc9d6;
+  color: #303030;
+}
+html[data-theme=light] .breadcrumb-item,
+html[data-theme=light] .breadcrumb-item + .breadcrumb-item::before {
+  color: #303030;
+}
+html[data-theme=light] .breadcrumb-item > a {
+  color: #992354 !important;
+}
+html[data-theme=light] .card-review {
+  background-color: #f9f9f9;
+}
+html[data-theme=light] .card-review p {
+  color: #303030;
+}
+html[data-theme=light] .card-review small {
+  color: #cbcfcf;
+}
+html[data-theme=light] .gallery-button {
+  background-color: #f9f9f9;
+}
+html[data-theme=light] .gallery-button:hover {
+  background-color: #cbcfcf;
+  color: #4fc9d6;
+}
+html[data-theme=light] .review-user h6 {
+  color: red;
+}
+html[data-theme=light] .review {
+  background-color: #f9f9f9;
+}
+html[data-theme=light] .review .user .bi-person-fill {
+  color: #4fc9d6;
+}
+html[data-theme=light] .review-user {
+  background-color: #f9f9f9;
+}
+html[data-theme=light] .review-user .user .bi-person-fill,
+html[data-theme=light] .review-user .user strong {
+  color: #235499;
+}
+html[data-theme=light] .review-user .note {
+  color: #cbcfcf;
+}
+html[data-theme=light] .shadow {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px !important;
+}
+
+html[data-theme=dark] body {
+  background-color: #050505;
+  color: #cfcfcf;
+}
+html[data-theme=dark] h2 {
+  color: #6597dc;
+}
+html[data-theme=dark] .bg-color-800 {
+  background-color: #333333;
+}
+html[data-theme=dark] .button {
+  background-color: #6597dc !important;
+  color: white;
+}
+html[data-theme=dark] .button:hover {
+  background-color: rgb(101, 131.1666666667, 220) !important;
+}
+html[data-theme=dark] .secondary-button {
+  background-color: #2aa4b2 !important;
+  color: white;
+}
+html[data-theme=dark] .secondary-button:hover {
+  background-color: rgb(42, 141.3333333333, 178) !important;
+}
+html[data-theme=dark] .movie-card,
+html[data-theme=dark] .movie-card-mini {
+  background-color: #333333;
+}
+html[data-theme=dark] .movie-card__title,
+html[data-theme=dark] .movie-card-mini__title {
+  color: #cfcfcf;
+}
+html[data-theme=dark] .movie-card__year,
+html[data-theme=dark] .movie-card-mini__year {
+  background-color: #2aa4b2;
+  color: #cfcfcf;
+}
+html[data-theme=dark] .breadcrumb-item,
+html[data-theme=dark] .breadcrumb-item + .breadcrumb-item::before {
+  color: #cfcfcf;
+}
+html[data-theme=dark] .breadcrumb-item > a {
+  color: #ed72a5 !important;
+}
+html[data-theme=dark] .card-review {
+  background-color: #333333;
+}
+html[data-theme=dark] .card-review p {
+  color: #cfcfcf;
+}
+html[data-theme=dark] .card-review small {
+  color: #cfcfcf;
+}
+html[data-theme=dark] .gallery-button {
+  background-color: #333333;
+}
+html[data-theme=dark] .gallery-button:hover {
+  background-color: #cfcfcf;
+  color: #2aa4b2;
+}
+html[data-theme=dark] .review-user h6 {
+  color: red;
+}
+html[data-theme=dark] .review {
+  background-color: #333333;
+}
+html[data-theme=dark] .review .user .bi-person-fill {
+  color: #2aa4b2;
+}
+html[data-theme=dark] .review-user {
+  background-color: #333333;
+}
+html[data-theme=dark] .review-user .user .bi-person-fill,
+html[data-theme=dark] .review-user .user strong {
+  color: #6597dc;
+}
+html[data-theme=dark] .review-user .note {
+  color: #cfcfcf;
+}
+html[data-theme=dark] .shadow {
+  box-shadow: rgba(0, 30, 112, 0.13) 0px 4px 16px, rgba(133, 158, 240, 0.205) 0px 8px 32px !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,34 @@
+@use "components/variables" as *;
+@use "components/_movie-card.scss";
+@use "components/mixins" as *;
+@use "components/_theme-selector.scss";
+@use "components/_review-card.scss" as *;
+@use "components/gallery";
+html[data-theme="light"] {
+  @include theme($light-theme);
+  .shadow {
+    box-shadow: $light-shadow !important;
+  }
+}
+
+html[data-theme="dark"] {
+  @include theme($dark-theme);
+  .shadow {
+    box-shadow: $dark-shadow !important;
+  }
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+button {
+  transition: background-color 0.3s;
+}

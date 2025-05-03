@@ -5,7 +5,9 @@ import {
   getMoviesByName,
   allCategories,
 } from "./api.js";
-import { score } from "./score.js";
+import { movieCard } from "./components/movieCard.js";
+import { score } from "./components/score.js";
+
 /* All  constants of Dom elements*/
 const HeroSection = document.getElementById("Hero-movie"); // Get the Hero section
 const HeroMovieSection = HeroSection.childNodes[1].childNodes[1]; // Get the movie image
@@ -20,13 +22,12 @@ const HeroMovie = async () => {
   try {
     //Get Movie
     const lengthOfMovies = await getMovies();
-    const randomIndex = Math.floor(Math.random() * lengthOfMovies.length);
-    const movie = await getMovieByIndex(randomIndex);
+    const movie = await getMovieByIndex(
+      Math.floor(Math.random() * lengthOfMovies.length)
+    );
     //Set data
     const movieTitle =
       movie.title + ` (${new Date(movie.release_date).getFullYear()})`;
-    HeroMovieSection.src = "images/" + movie.poster; //Image path
-    HeroMovieSection.alt = movieTitle; //Image alt
     HeroDataSection[1].innerText = movieTitle; //Movie title
     HeroDataSection[3].innerHTML =
       movie.score != null
@@ -38,6 +39,8 @@ const HeroMovie = async () => {
     document.getElementById("Synopsis").innerHTML = `<p>${movie.synopsis}</p>`; //Movie synopsis
     document.getElementById("Quote").innerHTML = `<q>${movie.review}</q>`; //Movie review
     document.getElementById("btnDetails").href = `./movie.html?id=${movie.id}`; //Movie link
+    HeroMovieSection.src = "images/" + movie.poster; //Image path
+    HeroMovieSection.alt = movieTitle; //Image alt
   } catch (error) {
     console.error("Error fetching movie:", error);
   }
@@ -55,35 +58,7 @@ const ViewAllMovies = async () => {
 const renderMovies = (movies) => {
   gridMovies.innerHTML = ""; // Clear the grid before adding new movies
   movies.map((movie) => {
-    const movieTitle =
-      movie.title + ` (${new Date(movie.release_date).getFullYear()})`;
-    const movieElement = document.createElement("a");
-    movieElement.className =
-      "card text-decoration-none shadow border-0 bg-white rounded-4 overflow-hidden";
-    movieElement.style.width = "200px"; // Fija para consistencia
-    movieElement.style.transition = "transform 0.2s";
-    movieElement.onmouseover = () =>
-      (movieElement.style.transform = "scale(1.02)");
-    movieElement.onmouseout = () => (movieElement.style.transform = "scale(1)");
-
-    movieElement.innerHTML = `
-  <img 
-    src="images/${movie.poster}" 
-    alt="${movieTitle}" 
-    loading="lazy" 
-    class="card-img-top rounded-top" 
-    style="height: 300px; object-fit: cover;"
-  />
-  <div class="card-body p-3">
-    <h6 class="card-title text-primary text-center mb-1">${movieTitle}</h6>
-    <p class="card-text text-center text-warning mb-0" style="font-size: 1.2rem;">
-      ${score(movie.score)}
-    </p>
-  </div>
-`;
-    movieElement.href = `./movie.html?id=${movie.id}`;
-    //Add movie to the grid
-    gridMovies.appendChild(movieElement);
+    gridMovies.appendChild(movieCard(movie));
   });
 };
 /*Search and filter functions*/

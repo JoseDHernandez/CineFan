@@ -1,0 +1,25 @@
+{
+  "name": "2310-5a_hernandez_hortua_jose_david",
+  "version": "1.0.0",
+  "description": "**CineFan** is a simple and personal movie review web page. It was developed as a learning project to practice frontend skills using HTML, Bootstrap, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/:css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseDHernandez/CineFan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoseDHernandez/CineFan/issues"
+  },
+  "homepage": "https://github.com/JoseDHernandez/CineFan#readme",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}

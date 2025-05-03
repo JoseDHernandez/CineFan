@@ -1,0 +1,95 @@
+@mixin theme($theme) {
+  body {
+    background-color: map-get($theme, "bg-color");
+    color: map-get($theme, "text-color");
+  }
+  h2 {
+    color: map-get($map: $theme, $key: "primary");
+  }
+  .bg-color-800 {
+    background-color: map-get($theme, "bg-color-800");
+  }
+
+  .button {
+    background-color: map-get($theme, "primary") !important;
+    color: white;
+    &:hover {
+      background-color: adjust-hue(
+        $color: map-get($theme, "primary"),
+        $degrees: 10
+      ) !important;
+    }
+  }
+  .secondary-button {
+    background-color: map-get($theme, "secondary") !important;
+    color: white;
+    &:hover {
+      background-color: adjust-hue(
+        $color: map-get($theme, "secondary"),
+        $degrees: 10
+      ) !important;
+    }
+  }
+  .movie-card,
+  .movie-card-mini {
+    background-color: map-get($theme, "bg-color-800");
+    &__title {
+      color: map-get($theme, "text-color");
+    }
+    &__year {
+      background-color: map-get($map: $theme, $key: "secondary");
+      color: map-get($map: $theme, $key: "text-color");
+    }
+  }
+
+  .breadcrumb-item,
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: map-get($map: $theme, $key: "text-color");
+  }
+  .breadcrumb-item > a {
+    color: map-get($map: $theme, $key: "accent") !important;
+  }
+
+  .card-review {
+    background-color: map-get($theme, "bg-color-800");
+    p {
+      color: map-get($theme, "text-color");
+    }
+
+    small {
+      color: map-get($theme, "neutral");
+    }
+  }
+  .gallery-button {
+    background-color: map-get($theme, "bg-color-800");
+    &:hover {
+      background-color: map-get($theme, "neutral");
+      color: map-get($map: $theme, $key: "secondary");
+    }
+  }
+  .review-user {
+    h6 {
+      color: red;
+    }
+  }
+  .review {
+    background-color: map-get($theme, "bg-color-800");
+    .user {
+      .bi-person-fill {
+        color: map-get($theme, "secondary");
+      }
+    }
+  }
+  .review-user {
+    background-color: map-get($theme, "bg-color-800");
+    .user {
+      .bi-person-fill,
+      strong {
+        color: map-get($theme, "primary");
+      }
+    }
+    .note {
+      color: map-get($theme, "neutral");
+    }
+  }
+}
