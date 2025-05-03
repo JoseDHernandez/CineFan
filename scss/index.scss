@@ -4,19 +4,20 @@
 @use "components/_theme-selector.scss";
 @use "components/_review-card.scss" as *;
 @use "components/gallery";
+//Apply the theme
 html[data-theme="light"] {
   @include theme($light-theme);
   .shadow {
     box-shadow: $light-shadow !important;
   }
 }
-
 html[data-theme="dark"] {
   @include theme($dark-theme);
   .shadow {
     box-shadow: $dark-shadow !important;
   }
 }
+//General styles (fonts)
 body {
   font-family: "Open Sans", sans-serif;
 }

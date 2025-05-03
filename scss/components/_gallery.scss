@@ -1,5 +1,7 @@
 $space-between: 20px;
+//Styles for gallery (movie.html)
 .gallery {
+  //Style buttons and space
   .gallery-button {
     width: 100%;
     height: 25px;
@@ -12,6 +14,7 @@ $space-between: 20px;
   :last-child {
     margin-top: $space-between;
   }
+  //Container of photos
   #Photographs-movie {
     display: flex;
     flex-direction: column;
@@ -23,7 +26,7 @@ $space-between: 20px;
     &::-webkit-scrollbar {
       display: none;
     }
-
+    //Change scroll for grid in mobile
     @media screen and (max-width: 992px) {
       :first-child,
       :last-child {

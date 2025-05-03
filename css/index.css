@@ -197,6 +197,11 @@ html[data-theme=dark] .theme-selector input[type=radio]:not(:checked) + label {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+@media screen and (max-width: 768px) {
+  #Reviews {
+    grid-template-columns: 1fr;
+  }
+}
 
 .gallery .gallery-button {
   width: 100%;
@@ -270,6 +275,13 @@ html[data-theme=light] .secondary-button {
 html[data-theme=light] .secondary-button:hover {
   background-color: rgb(79, 178.5, 214) !important;
 }
+html[data-theme=light] .gallery-button {
+  background-color: #f9f9f9;
+}
+html[data-theme=light] .gallery-button:hover {
+  background-color: #cbcfcf;
+  color: #4fc9d6;
+}
 html[data-theme=light] .movie-card,
 html[data-theme=light] .movie-card-mini {
   background-color: #f9f9f9;
@@ -289,25 +301,6 @@ html[data-theme=light] .breadcrumb-item + .breadcrumb-item::before {
 }
 html[data-theme=light] .breadcrumb-item > a {
   color: #992354 !important;
-}
-html[data-theme=light] .card-review {
-  background-color: #f9f9f9;
-}
-html[data-theme=light] .card-review p {
-  color: #303030;
-}
-html[data-theme=light] .card-review small {
-  color: #cbcfcf;
-}
-html[data-theme=light] .gallery-button {
-  background-color: #f9f9f9;
-}
-html[data-theme=light] .gallery-button:hover {
-  background-color: #cbcfcf;
-  color: #4fc9d6;
-}
-html[data-theme=light] .review-user h6 {
-  color: red;
 }
 html[data-theme=light] .review {
   background-color: #f9f9f9;
@@ -353,6 +346,13 @@ html[data-theme=dark] .secondary-button {
 html[data-theme=dark] .secondary-button:hover {
   background-color: rgb(42, 141.3333333333, 178) !important;
 }
+html[data-theme=dark] .gallery-button {
+  background-color: #333333;
+}
+html[data-theme=dark] .gallery-button:hover {
+  background-color: #cfcfcf;
+  color: #2aa4b2;
+}
 html[data-theme=dark] .movie-card,
 html[data-theme=dark] .movie-card-mini {
   background-color: #333333;
@@ -372,25 +372,6 @@ html[data-theme=dark] .breadcrumb-item + .breadcrumb-item::before {
 }
 html[data-theme=dark] .breadcrumb-item > a {
   color: #ed72a5 !important;
-}
-html[data-theme=dark] .card-review {
-  background-color: #333333;
-}
-html[data-theme=dark] .card-review p {
-  color: #cfcfcf;
-}
-html[data-theme=dark] .card-review small {
-  color: #cfcfcf;
-}
-html[data-theme=dark] .gallery-button {
-  background-color: #333333;
-}
-html[data-theme=dark] .gallery-button:hover {
-  background-color: #cfcfcf;
-  color: #2aa4b2;
-}
-html[data-theme=dark] .review-user h6 {
-  color: red;
 }
 html[data-theme=dark] .review {
   background-color: #333333;

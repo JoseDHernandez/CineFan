@@ -69,11 +69,9 @@ const ViewData = async () => {
       Photographs.appendChild(noPhotographsElement);
     }
     //Similar's movies
-    // Mezclar el array y tomar solo 6 elementos sin repetir
     const selectedRecommendations = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
       .sort(() => 0.5 - Math.random())
-      .slice(0, 6);
-
+      .slice(0, document.body.getBoundingClientRect().width <= 768 ? 3 : 6);
     // Solicitar los datos de esas 6 películas
     selectedRecommendations.forEach(async (movieId) => {
       try {

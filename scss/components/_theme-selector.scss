@@ -1,4 +1,5 @@
 @use "./variables" as *;
+//Styles for theme selector
 .theme-selector {
   label {
     padding: 5px 10px;
@@ -9,7 +10,7 @@
       filter: brightness(1.1);
     }
   }
-
+  // Hidden the selected option
   input[type="radio"] {
     display: none;
   }
@@ -18,9 +19,9 @@
     display: none;
   }
 }
+//Show the opposite option
 html[data-theme="light"] {
   .theme-selector {
-    //no selected input
     input[type="radio"]:not(:checked) + label {
       color: map-get($map: $dark-theme, $key: "text-color");
       background-color: map-get($map: $dark-theme, $key: "bg-color");
@@ -29,7 +30,6 @@ html[data-theme="light"] {
 }
 html[data-theme="dark"] {
   .theme-selector {
-    //no selected input
     input[type="radio"]:not(:checked) + label {
       color: map-get($map: $light-theme, $key: "text-color");
       background-color: map-get($map: $light-theme, $key: "bg-color");

@@ -1,3 +1,4 @@
+//Mixin to apply theme colors
 @mixin theme($theme) {
   body {
     background-color: map-get($theme, "bg-color");
@@ -9,7 +10,7 @@
   .bg-color-800 {
     background-color: map-get($theme, "bg-color-800");
   }
-
+  //Buttons
   .button {
     background-color: map-get($theme, "primary") !important;
     color: white;
@@ -30,6 +31,15 @@
       ) !important;
     }
   }
+  //Gallery buttons
+  .gallery-button {
+    background-color: map-get($theme, "bg-color-800");
+    &:hover {
+      background-color: map-get($theme, "neutral");
+      color: map-get($map: $theme, $key: "secondary");
+    }
+  }
+  //Movies cards
   .movie-card,
   .movie-card-mini {
     background-color: map-get($theme, "bg-color-800");
@@ -41,7 +51,7 @@
       color: map-get($map: $theme, $key: "text-color");
     }
   }
-
+  //Breadcrumb (movie.html)
   .breadcrumb-item,
   .breadcrumb-item + .breadcrumb-item::before {
     color: map-get($map: $theme, $key: "text-color");
@@ -49,29 +59,7 @@
   .breadcrumb-item > a {
     color: map-get($map: $theme, $key: "accent") !important;
   }
-
-  .card-review {
-    background-color: map-get($theme, "bg-color-800");
-    p {
-      color: map-get($theme, "text-color");
-    }
-
-    small {
-      color: map-get($theme, "neutral");
-    }
-  }
-  .gallery-button {
-    background-color: map-get($theme, "bg-color-800");
-    &:hover {
-      background-color: map-get($theme, "neutral");
-      color: map-get($map: $theme, $key: "secondary");
-    }
-  }
-  .review-user {
-    h6 {
-      color: red;
-    }
-  }
+  //Review card
   .review {
     background-color: map-get($theme, "bg-color-800");
     .user {

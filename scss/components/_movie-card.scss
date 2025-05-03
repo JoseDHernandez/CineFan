@@ -1,5 +1,7 @@
 @use "variables.scss";
-
+//Card type
+//movie-card: index.html
+//movie-card-mini: movie.html
 $card-types: (
   "movie-card": 220px,
   "movie-card-mini": 180px,
@@ -48,7 +50,6 @@ $border-radius-card: 5px;
     }
 
     &__title {
-      //font-size: 18px;
       text-align: center;
       margin: 0;
     }
