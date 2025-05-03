@@ -118,7 +118,7 @@ ViewData();
 //Set the height to gallery
 const trailer = document.getElementById("Trailer-movie");
 function setHeightFromVideo() {
-  if (document.body.getBoundingClientRect().width > 768) {
+  if (document.body.getBoundingClientRect().width > 992) {
     Photographs.style.height = trailer.getBoundingClientRect().height + "px";
   } else {
     Photographs.removeAttribute("style");

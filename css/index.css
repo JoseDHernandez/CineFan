@@ -211,6 +211,8 @@ html[data-theme=dark] .theme-selector input[type=radio]:not(:checked) + label {
   margin-top: 20px;
 }
 .gallery #Photographs-movie {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   overflow-y: scroll;
   scroll-behavior: smooth;
